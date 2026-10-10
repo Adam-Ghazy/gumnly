@@ -1,0 +1,47 @@
+## "GUMNLY — wordmark / original exploration" (canvas cvs_0Y7S15TCA18SP9E7VPS4TVCQF4)
+
+**Revision**: cnt-f1f40e04dfe177cf2b2e262bb967069c · **Folder**: root (unfiled) · **Pages**: 1 · **Current page**: p_a · **Credits**: 0 (deterministic)
+
+```toon
+meta:
+  format: toon
+  lossless: true
+  currentPage: p_a
+v: 2
+canvas:
+  w: 720
+  h: 240
+nodes[1]:
+  - id: n1
+    t: richtext
+    h: 205
+    htmlContent: <p style="font-size: 152px; color: #0b2f2b; font-family: Manrope; font-weight: 800">gumnly.</p>
+    metadata:
+      name: Editable wordmark
+      provenance: ai
+    w: 640
+    x: 50
+    y: 15
+canvasRootNodeIds[0]:
+pages[1]:
+  - id: p_a
+    name: ""
+    size[2]: 720,240
+    nodes[1]: n1
+    f: #ede8df
+    fillPriority: color
+category: other
+config:
+  autoDeleteOffPageNodes: true
+  brandKitId: b660a9a0-3d69-4d5f-b5d0-871fede85f69
+  collabEnabled: true
+  defaultMargins: null
+  renderPageClipping: true
+kind: design
+schemaVersion: 1
+```
+
+## Notes
+- canvas_screenshot shows how it renders; the ids above are what canvas_edit targets.
+- Discipline: use n12/p_a ids from canvas_read, canvas_create or a write — never fabricate one. Pin a read's revision (cnt-…) for replace_page_nodes. Check brand: brand_list, then ask the user which kit each new design uses — theirs, a new one (brand_create), or none. Unfamiliar format or fill? load_skill(<name>) serves the full guide. Verify once before declaring done: screenshot=true on the last write, or canvas_screenshot. Direct edits are free; the media tools and task_delegate are metered.
+- The design is open for editing at https://moda.app/canvas/1e3e425d-3141-466c-971f-76c935b65de4?source=agent — share this link with the user.

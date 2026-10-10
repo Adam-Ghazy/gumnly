@@ -1,0 +1,50 @@
+[
+  {
+    "file": "wordmark.png",
+    "bytes": 32624,
+    "sha256": "12c190ce10c4b7bbdb191d0cb6f7605bb1b2970431c4dd24820534db4b43bdc3",
+    "origin": "Moda export",
+    "pixels": [
+      1440,
+      480
+    ]
+  },
+  {
+    "file": "wordmark.pdf",
+    "bytes": 2686,
+    "sha256": "9036d7e9a1c35fdf2bf6b1222e0fb794f0518ee0867141240bc9055eb20c9d2c",
+    "origin": "Moda export"
+  },
+  {
+    "file": "hero.png",
+    "bytes": 172292,
+    "sha256": "c5c1ad20b29cba445c9481487e8a8bb05bd480439e7e3baa28fd8cc850796193",
+    "origin": "Moda export",
+    "pixels": [
+      2000,
+      1800
+    ]
+  },
+  {
+    "file": "hero.pdf",
+    "bytes": 56260,
+    "sha256": "43519e6c802a49018d52271f5922a9a4645abee316ccab236c7ed3694b2aea82",
+    "origin": "Moda export"
+  },
+  {
+    "file": "workflow.png",
+    "bytes": 213631,
+    "sha256": "ed9a9935ffd723c701a40a4d6dd1aa85adae447805ef61ad1d6e30ca0d463b6e",
+    "origin": "Moda export",
+    "pixels": [
+      2400,
+      1120
+    ]
+  },
+  {
+    "file": "workflow.pdf",
+    "bytes": 25393,
+    "sha256": "be722669b0caa6b540ffa93faa2277b27ec2a88548f3325af481bcce45f28b68",
+    "origin": "Moda export"
+  }
+]

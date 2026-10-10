@@ -1,0 +1,333 @@
+## "GUMNLY — workflow / original exploration" (canvas cvs_3J4429AV7J82C97R2T7VFXXAEV)
+
+**Revision**: cnt-1ff96c51c09af5627d8e774f22e204fe · **Folder**: root (unfiled) · **Pages**: 1 · **Current page**: p_a · **Credits**: 0 (deterministic)
+
+```toon
+meta:
+  format: toon
+  lossless: true
+  currentPage: p_a
+v: 2
+canvas:
+  w: 1200
+  h: 560
+nodes[26]:
+  - id: n4
+    t: ellipse
+    fill: #0f8f73
+    fillMode: color
+    h: 38
+    metadata:
+      name: Step badge 1
+      provenance: ai
+    w: 38
+    x: 70
+    y: 235
+  - id: n9
+    t: ellipse
+    fill: #0f8f73
+    fillMode: color
+    h: 38
+    metadata:
+      name: Step badge 2
+      provenance: ai
+    w: 38
+    x: 356
+    y: 235
+  - id: n14
+    t: ellipse
+    fill: #0f8f73
+    fillMode: color
+    h: 38
+    metadata:
+      name: Step badge 3
+      provenance: ai
+    w: 38
+    x: 642
+    y: 235
+  - id: n19
+    t: ellipse
+    fill: #0f8f73
+    fillMode: color
+    h: 38
+    metadata:
+      name: Step badge 4
+      provenance: ai
+    w: 38
+    x: 928
+    y: 235
+  - id: n24
+    t: line
+    endArrowShape: triangle
+    lineCap: round
+    lineJoin: round
+    metadata:
+      name: Directional flow 0
+      provenance: ai
+    pointerLength: 20.0
+    pointerWidth: 20.0
+    points[4]: 300,300,324,300
+    st: #0f8f73
+    strokePriority: color
+    stW: 2
+  - id: n25
+    t: line
+    endArrowShape: triangle
+    lineCap: round
+    lineJoin: round
+    metadata:
+      name: Directional flow 1
+      provenance: ai
+    pointerLength: 20.0
+    pointerWidth: 20.0
+    points[4]: 586,300,610,300
+    st: #0f8f73
+    strokePriority: color
+    stW: 2
+  - id: n26
+    t: line
+    endArrowShape: triangle
+    lineCap: round
+    lineJoin: round
+    metadata:
+      name: Directional flow 2
+      provenance: ai
+    pointerLength: 20.0
+    pointerWidth: 20.0
+    points[4]: 872,300,896,300
+    st: #0f8f73
+    strokePriority: color
+    stW: 2
+  - id: n3
+    t: rectangle
+    cR: 16
+    fill: #ede8df
+    fillMode: color
+    h: 240
+    metadata:
+      name: Step 1
+      provenance: ai
+    st: #0f8f73
+    strokePriority: color
+    stW: 2
+    w: 252
+    x: 44
+    y: 208
+  - id: n8
+    t: rectangle
+    cR: 16
+    fill: #ede8df
+    fillMode: color
+    h: 240
+    metadata:
+      name: Step 2
+      provenance: ai
+    st: #0f8f73
+    strokePriority: color
+    stW: 2
+    w: 252
+    x: 330
+    y: 208
+  - id: n13
+    t: rectangle
+    cR: 16
+    fill: #ede8df
+    fillMode: color
+    h: 240
+    metadata:
+      name: Step 3
+      provenance: ai
+    st: #0f8f73
+    strokePriority: color
+    stW: 2
+    w: 252
+    x: 616
+    y: 208
+  - id: n18
+    t: rectangle
+    cR: 16
+    fill: #ede8df
+    fillMode: color
+    h: 240
+    metadata:
+      name: Step 4
+      provenance: ai
+    st: #0f8f73
+    strokePriority: color
+    stW: 2
+    w: 252
+    x: 902
+    y: 208
+  - id: n1
+    t: richtext
+    h: 64
+    htmlContent: <p style="font-size: 38px; color: #0b2f2b; font-family: Manrope; font-weight: 700">Dari kebutuhan ke sistem yang bekerja.</p>
+    metadata:
+      name: Workflow heading
+      provenance: ai
+    w: 1100
+    x: 44
+    y: 30
+  - id: n2
+    t: richtext
+    h: 40
+    htmlContent: <p style="font-size: 20px; color: #0b2f2b; font-family: Inter; font-weight: 400">Pendekatan proyek disesuaikan dengan kebutuhan dan ruang lingkup.</p>
+    metadata:
+      name: Workflow subhead
+      provenance: ai
+    w: 1110
+    x: 44
+    y: 101
+  - id: n5
+    t: richtext
+    h: 40
+    htmlContent: <p style="font-size: 25px; color: #0b2f2b; font-family: Manrope; font-weight: 700">01</p>
+    metadata:
+      name: Step number 1
+      provenance: ai
+    w: 120
+    x: 124
+    y: 233
+  - id: n6
+    t: richtext
+    h: 45
+    htmlContent: <p style="font-size: 27px; color: #0b2f2b; font-family: Manrope; font-weight: 700">Discovery</p>
+    metadata:
+      name: Step title 1
+      provenance: ai
+    w: 212
+    x: 68
+    y: 322
+  - id: n7
+    t: richtext
+    h: 40
+    htmlContent: <p style="font-size: 17px; color: #0b2f2b; font-family: Inter; font-weight: 400">Kebutuhan &amp; prioritas</p>
+    metadata:
+      name: Step detail 1
+      provenance: ai
+    w: 215
+    x: 68
+    y: 383
+  - id: n10
+    t: richtext
+    h: 40
+    htmlContent: <p style="font-size: 25px; color: #0b2f2b; font-family: Manrope; font-weight: 700">02</p>
+    metadata:
+      name: Step number 2
+      provenance: ai
+    w: 120
+    x: 410
+    y: 233
+  - id: n11
+    t: richtext
+    h: 45
+    htmlContent: <p style="font-size: 27px; color: #0b2f2b; font-family: Manrope; font-weight: 700">Desain</p>
+    metadata:
+      name: Step title 2
+      provenance: ai
+    w: 212
+    x: 354
+    y: 322
+  - id: n12
+    t: richtext
+    h: 40
+    htmlContent: <p style="font-size: 17px; color: #0b2f2b; font-family: Inter; font-weight: 400">Alur &amp; prototipe</p>
+    metadata:
+      name: Step detail 2
+      provenance: ai
+    w: 215
+    x: 354
+    y: 383
+  - id: n15
+    t: richtext
+    h: 40
+    htmlContent: <p style="font-size: 25px; color: #0b2f2b; font-family: Manrope; font-weight: 700">03</p>
+    metadata:
+      name: Step number 3
+      provenance: ai
+    w: 120
+    x: 696
+    y: 233
+  - id: n16
+    t: richtext
+    h: 45
+    htmlContent: <p style="font-size: 27px; color: #0b2f2b; font-family: Manrope; font-weight: 700">Pengembangan</p>
+    metadata:
+      name: Step title 3
+      provenance: ai
+    w: 212
+    x: 640
+    y: 322
+  - id: n17
+    t: richtext
+    h: 40
+    htmlContent: <p style="font-size: 17px; color: #0b2f2b; font-family: Inter; font-weight: 400">Software &amp; integrasi</p>
+    metadata:
+      name: Step detail 3
+      provenance: ai
+    w: 215
+    x: 640
+    y: 383
+  - id: n20
+    t: richtext
+    h: 40
+    htmlContent: <p style="font-size: 25px; color: #0b2f2b; font-family: Manrope; font-weight: 700">04</p>
+    metadata:
+      name: Step number 4
+      provenance: ai
+    w: 120
+    x: 982
+    y: 233
+  - id: n21
+    t: richtext
+    h: 45
+    htmlContent: <p style="font-size: 27px; color: rgb(11, 47, 43); font-family: Manrope; font-weight: 700;">Review</p>
+    metadata:
+      name: Step title 4
+      provenance: ai
+    w: 212
+    x: 926
+    y: 322
+  - id: n22
+    t: richtext
+    h: 40
+    htmlContent: <p style="font-size: 17px; color: #0b2f2b; font-family: Inter; font-weight: 400">Uji, iterasi &amp; perbaikan</p>
+    metadata:
+      name: Step detail 4
+      provenance: ai
+    w: 215
+    x: 926
+    y: 383
+  - id: n23
+    t: richtext
+    h: 30
+    htmlContent: <p style="font-size: 13px; color: #0b2f2b; font-family: Inter; font-weight: 500">PROSES KOLABORATIF — BUKAN JANJI TAHAP ATAU DURASI TETAP</p>
+    metadata:
+      name: Workflow note
+      provenance: ai
+    w: 1110
+    x: 44
+    y: 495
+canvasRootNodeIds[0]:
+pages[1]:
+  - id: p_a
+    name: ""
+    size[2]: 1200,560
+    nodes[26]: n1,n2,n3,n4,n5,n6,n7,n8,n9,n10,n11,n12,n13,n14,n15,n16,n17,n18,n19,n20,n21,n22,n23,n24,n25,n26
+    f: #ede8df
+    fillPriority: color
+category: other
+config:
+  autoDeleteOffPageNodes: true
+  brandKitId: b660a9a0-3d69-4d5f-b5d0-871fede85f69
+  collabEnabled: true
+  defaultMargins: null
+  renderPageClipping: true
+kind: design
+schemaVersion: 1
+```
+
+## Notes
+- canvas_screenshot shows how it renders; the ids above are what canvas_edit targets.
+- Discipline: use n12/p_a ids from canvas_read, canvas_create or a write — never fabricate one. Pin a read's revision (cnt-…) for replace_page_nodes. Check brand: brand_list, then ask the user which kit each new design uses — theirs, a new one (brand_create), or none. Unfamiliar format or fill? load_skill(<name>) serves the full guide. Verify once before declaring done: screenshot=true on the last write, or canvas_screenshot. Direct edits are free; the media tools and task_delegate are metered.
+- The design is open for editing at https://moda.app/canvas/72210495-6cf2-4098-93e0-5a3edfdea9db?source=agent — share this link with the user.

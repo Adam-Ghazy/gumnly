@@ -1,0 +1,391 @@
+## "GUMNLY — hero / original exploration" (canvas cvs_4NDW46Z6FX9JJV3P7QFGX6TVH4)
+
+**Revision**: cnt-ae8fad364bb624fef02e9a47176dd57f · **Folder**: root (unfiled) · **Pages**: 1 · **Current page**: p_a · **Credits**: 0 (deterministic)
+
+```toon
+meta:
+  format: toon
+  lossless: true
+  currentPage: p_a
+v: 2
+canvas:
+  w: 1000
+  h: 900
+nodes[30]:
+  - id: n13
+    t: ellipse
+    fill: #0f8f73
+    fillMode: color
+    h: 86
+    metadata:
+      name: Product open center
+      provenance: ai
+    w: 86
+    x: 522
+    y: 406
+  - id: n17
+    t: ellipse
+    fill: #0f8f73
+    fillMode: color
+    h: 22
+    metadata:
+      name: Automation point one
+      provenance: ai
+    w: 22
+    x: 126
+    y: 191
+  - id: n18
+    t: ellipse
+    fill: #0f8f73
+    fillMode: color
+    h: 22
+    metadata:
+      name: Automation point two
+      provenance: ai
+    w: 22
+    x: 186
+    y: 191
+  - id: n19
+    t: ellipse
+    fill: #0f8f73
+    fillMode: color
+    h: 22
+    metadata:
+      name: Automation point three
+      provenance: ai
+    w: 22
+    x: 246
+    y: 191
+  - id: n26
+    t: ellipse
+    fill: #0b2f2b
+    fillMode: color
+    h: 14
+    metadata:
+      name: Junction lower
+      provenance: ai
+    w: 14
+    x: 818
+    y: 538
+  - id: n28
+    t: ellipse
+    fill: #0f8f73
+    fillMode: color
+    h: 86
+    metadata:
+      name: Orbit core
+      provenance: ai
+    w: 86
+    x: 757
+    y: 217
+  - id: n27
+    t: ellipse
+    fill: #ede8df
+    fillMode: color
+    h: 144
+    metadata:
+      name: Orbit ring
+      provenance: ai
+    st: #0f8f73
+    strokePriority: color
+    stW: 2
+    w: 144
+    x: 728
+    y: 188
+  - id: n25
+    t: ellipse
+    fill: #0b2f2b
+    fillMode: color
+    h: 14
+    metadata:
+      name: Junction top
+      provenance: ai
+    w: 14
+    x: 498
+    y: 273
+  - id: n2
+    t: line
+    lineCap: round
+    lineJoin: round
+    metadata:
+      name: Top rule
+      provenance: ai
+    points[4]: 55,98,945,98
+    st: #0b2f2b
+    strokePriority: color
+    stW: 1
+  - id: n3
+    t: line
+    lineCap: round
+    lineJoin: round
+    metadata:
+      name: Integration route A
+      provenance: ai
+    points[4]: 230,280,505,280
+    st: #0f8f73
+    strokePriority: color
+    stW: 3
+  - id: n6
+    t: line
+    lineCap: round
+    lineJoin: round
+    metadata:
+      name: Build route B
+      provenance: ai
+    points[4]: 825,545,825,690
+    st: #0f8f73
+    strokePriority: color
+    stW: 3
+  - id: n5
+    t: line
+    lineCap: round
+    lineJoin: round
+    metadata:
+      name: Build route A
+      provenance: ai
+    points[4]: 660,545,825,545
+    st: #0f8f73
+    strokePriority: color
+    stW: 3
+  - id: n4
+    t: line
+    lineCap: round
+    lineJoin: round
+    metadata:
+      name: Integration route B
+      provenance: ai
+    points[4]: 505,280,505,410
+    st: #0f8f73
+    strokePriority: color
+    stW: 3
+  - id: n16
+    t: line
+    lineCap: round
+    lineJoin: round
+    metadata:
+      name: Automation track
+      provenance: ai
+    points[4]: 119,202,265,202
+    st: #0b2f2b
+    strokePriority: color
+    stW: 2
+  - id: n22
+    t: path
+    closed: false
+    fill: rgba(0, 0, 0, 0)
+    fillRule: nonzero
+    metadata:
+      provenance: ai
+    name: Code bracket left
+    points[3]{type,x,y}:
+      move,17,0
+      line,0,17
+      line,17,34
+    st: #0b2f2b
+    stW: 3
+    x: 762
+    y: 670
+  - id: n23
+    t: path
+    closed: false
+    fill: rgba(0, 0, 0, 0)
+    fillRule: nonzero
+    metadata:
+      provenance: ai
+    name: Code bracket right
+    points[3]{type,x,y}:
+      move,0,0
+      line,17,17
+      line,0,34
+    st: #0b2f2b
+    stW: 3
+    x: 818
+    y: 670
+  - id: n7
+    t: rectangle
+    cR: 24
+    fill: #ede8df
+    fillMode: color
+    h: 350
+    metadata:
+      name: Product foundation
+      provenance: ai
+    st: #0b2f2b
+    strokePriority: color
+    stW: 2
+    w: 470
+    x: 230
+    y: 355
+  - id: n8
+    t: rectangle
+    cR: 24
+    fill: #0f8f73
+    fillMode: color
+    h: 350
+    metadata:
+      name: Product main module
+      provenance: ai
+    w: 470
+    x: 210
+    y: 335
+  - id: n11
+    t: rectangle
+    cR: 53
+    fill: #ede8df
+    fillMode: color
+    h: 145
+    metadata:
+      name: Module two
+      provenance: ai
+    w: 106
+    x: 372
+    y: 377
+  - id: n10
+    t: rectangle
+    cR: 53
+    fill: #ede8df
+    fillMode: color
+    h: 145
+    metadata:
+      name: Module one
+      provenance: ai
+    w: 106
+    x: 252
+    y: 377
+  - id: n12
+    t: rectangle
+    cR: 24
+    fill: #ede8df
+    fillMode: color
+    h: 145
+    metadata:
+      name: Module three
+      provenance: ai
+    w: 146
+    x: 492
+    y: 377
+  - id: n15
+    t: rectangle
+    cR: 20
+    fill: #ede8df
+    fillMode: color
+    h: 160
+    metadata:
+      name: Automation satellite
+      provenance: ai
+    st: #0f8f73
+    strokePriority: color
+    stW: 2
+    w: 230
+    x: 80
+    y: 155
+  - id: n14
+    t: rectangle
+    fill: #ede8df
+    fillMode: color
+    h: 45
+    metadata:
+      name: Product notch
+      provenance: ai
+    w: 74
+    x: 565
+    y: 405
+  - id: n21
+    t: rectangle
+    cR: 20
+    fill: #ede8df
+    fillMode: color
+    h: 160
+    metadata:
+      name: Engineering satellite
+      provenance: ai
+    st: #0f8f73
+    strokePriority: color
+    stW: 2
+    w: 224
+    x: 726
+    y: 636
+  - id: n29
+    t: rectangle
+    fill: #ede8df
+    fillMode: color
+    h: 18
+    metadata:
+      name: Orbit slit
+      provenance: ai
+    w: 146
+    x: 727
+    y: 251
+  - id: n1
+    t: richtext
+    h: 40
+    htmlContent: <p style="font-size: 16px; color: #0b2f2b; font-family: Inter; font-weight: 500">SISTEM YANG SALING TERHUBUNG</p>
+    metadata:
+      name: Eyebrow
+      provenance: ai
+    w: 840
+    x: 55
+    y: 38
+  - id: n9
+    t: richtext
+    h: 60
+    htmlContent: <p style="font-size: 44px; color: #ede8df; font-family: Manrope; font-weight: 700">Produk SaaS</p>
+    metadata:
+      name: Product label
+      provenance: ai
+    w: 390
+    x: 250
+    y: 570
+  - id: n20
+    t: richtext
+    h: 42
+    htmlContent: <p style="font-size: 25px; color: #0b2f2b; font-family: Manrope; font-weight: 650">Otomasi</p>
+    metadata:
+      name: Automation label
+      provenance: ai
+    w: 175
+    x: 117
+    y: 242
+  - id: n24
+    t: richtext
+    h: 40
+    htmlContent: <p style="font-size: 25px; color: #0b2f2b; font-family: Manrope; font-weight: 650">Integrasi</p>
+    metadata:
+      name: Engineering label
+      provenance: ai
+    w: 165
+    x: 760
+    y: 733
+  - id: n30
+    t: richtext
+    h: 30
+    htmlContent: <p style="font-size: 13px; color: #0b2f2b; font-family: Inter; font-weight: 500">ILUSTRASI KONSEPTUAL / BUKAN ANTARMUKA PRODUK</p>
+    metadata:
+      name: Illustration note
+      provenance: ai
+    w: 890
+    x: 55
+    y: 842
+canvasRootNodeIds[0]:
+pages[1]:
+  - id: p_a
+    name: ""
+    size[2]: 1000,900
+    nodes[30]: n1,n2,n3,n4,n5,n6,n7,n8,n9,n10,n11,n12,n13,n14,n15,n16,n17,n18,n19,n20,n21,n22,n23,n24,n25,n26,n27,n28,n29,n30
+    f: #ede8df
+    fillPriority: color
+category: other
+config:
+  autoDeleteOffPageNodes: true
+  brandKitId: b660a9a0-3d69-4d5f-b5d0-871fede85f69
+  collabEnabled: true
+  defaultMargins: null
+  renderPageClipping: true
+kind: design
+schemaVersion: 1
+```
+
+## Notes
+- canvas_screenshot shows how it renders; the ids above are what canvas_edit targets.
+- Discipline: use n12/p_a ids from canvas_read, canvas_create or a write — never fabricate one. Pin a read's revision (cnt-…) for replace_page_nodes. Check brand: brand_list, then ask the user which kit each new design uses — theirs, a new one (brand_create), or none. Unfamiliar format or fill? load_skill(<name>) serves the full guide. Verify once before declaring done: screenshot=true on the last write, or canvas_screenshot. Direct edits are free; the media tools and task_delegate are metered.
+- The design is open for editing at https://moda.app/canvas/956f086f-99fd-4ca5-b1d8-f77c3a6d6e24?source=agent — share this link with the user.
