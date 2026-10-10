@@ -1,0 +1,25 @@
+    ./src/server/config.ts
+    ./src/server/runtime.ts
+    ./app/privacy/page.tsx
+
+
+  Finalizing page optimization ...
+
+Route (app)
+┌ ƒ /
+├ ○ /_not-found
+├ ƒ /about
+├ ƒ /admin
+├ ƒ /admin/login
+├ ƒ /api/[[...path]]
+├ ○ /contact
+├ ƒ /privacy
+├ ƒ /products
+├ ○ /robots.txt
+├ ƒ /services
+└ ○ /sitemap.xml
+
+
+○  (Static)   prerendered as static content
+ƒ  (Dynamic)  server-rendered on demand
+

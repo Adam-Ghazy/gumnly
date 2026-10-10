@@ -1,0 +1,374 @@
+[
+  {
+    "viewport": "desktop",
+    "site": "reference",
+    "boxes": {
+      "[data-framer-name=\"Hero header\"]": {
+        "rect": {
+          "x": 144,
+          "y": 140,
+          "width": 1152,
+          "height": 712,
+          "top": 140,
+          "right": 1296,
+          "bottom": 852,
+          "left": 144
+        },
+        "font": "sans-serif",
+        "fontSize": "12px",
+        "display": "flex"
+      },
+      "h1": {
+        "rect": {
+          "x": 240,
+          "y": 236,
+          "width": 480,
+          "height": 216,
+          "top": 236,
+          "right": 720,
+          "bottom": 452,
+          "left": 240
+        },
+        "font": "Lora, \"Lora Placeholder\", serif",
+        "fontSize": "72px",
+        "display": "block"
+      },
+      "[data-framer-name=\"Software development workspace\"]": {
+        "rect": {
+          "x": 766.09375,
+          "y": 140,
+          "width": 529.90625,
+          "height": 712,
+          "top": 140,
+          "right": 1296,
+          "bottom": 852,
+          "left": 766.09375
+        },
+        "font": "sans-serif",
+        "fontSize": "12px",
+        "display": "block"
+      },
+      "[data-framer-name=\"Trailing card\"]": {
+        "rect": {
+          "x": 888,
+          "y": 648,
+          "width": 360,
+          "height": 156,
+          "top": 648,
+          "right": 1248,
+          "bottom": 804,
+          "left": 888
+        },
+        "font": "sans-serif",
+        "fontSize": "12px",
+        "display": "flex"
+      }
+    },
+    "pageHeight": 9266
+  },
+  {
+    "viewport": "desktop",
+    "site": "local",
+    "boxes": {
+      ".home-hero-panel": {
+        "rect": {
+          "x": 144,
+          "y": 140,
+          "width": 1152,
+          "height": 712,
+          "top": 140,
+          "right": 1296,
+          "bottom": 852,
+          "left": 144
+        },
+        "font": "Instrument, Arial, sans-serif",
+        "fontSize": "16px",
+        "display": "block"
+      },
+      "h1": {
+        "rect": {
+          "x": 240,
+          "y": 236,
+          "width": 480,
+          "height": 216,
+          "top": 236,
+          "right": 720,
+          "bottom": 452,
+          "left": 240
+        },
+        "font": "lora, \"lora Fallback\", Lora, Georgia, serif",
+        "fontSize": "72px",
+        "display": "block"
+      },
+      ".home-hero-photo": {
+        "rect": {
+          "x": 766.09375,
+          "y": 140,
+          "width": 529.90625,
+          "height": 712,
+          "top": 140,
+          "right": 1296,
+          "bottom": 852,
+          "left": 766.09375
+        },
+        "font": "Instrument, Arial, sans-serif",
+        "fontSize": "16px",
+        "display": "block"
+      },
+      ".home-availability": {
+        "rect": {
+          "x": 888,
+          "y": 648,
+          "width": 360,
+          "height": 156,
+          "top": 648,
+          "right": 1248,
+          "bottom": 804,
+          "left": 888
+        },
+        "font": "Instrument, Arial, sans-serif",
+        "fontSize": "16px",
+        "display": "block"
+      }
+    },
+    "pageHeight": 9485
+  },
+  {
+    "viewport": "tablet",
+    "site": "reference",
+    "boxes": {
+      "[data-framer-name=\"Hero header\"]": {
+        "rect": {
+          "x": 24,
+          "y": 108,
+          "width": 762,
+          "height": 728,
+          "top": 108,
+          "right": 786,
+          "bottom": 836,
+          "left": 24
+        },
+        "font": "sans-serif",
+        "fontSize": "12px",
+        "display": "flex"
+      },
+      "h1": {
+        "rect": {
+          "x": 165,
+          "y": 188,
+          "width": 480,
+          "height": 192,
+          "top": 188,
+          "right": 645,
+          "bottom": 380,
+          "left": 165
+        },
+        "font": "Lora, \"Lora Placeholder\", serif",
+        "fontSize": "64px",
+        "display": "block"
+      }
+    },
+    "pageHeight": 11119
+  },
+  {
+    "viewport": "tablet",
+    "site": "local",
+    "boxes": {
+      ".home-hero-panel": {
+        "rect": {
+          "x": 24,
+          "y": 108,
+          "width": 762,
+          "height": 728,
+          "top": 108,
+          "right": 786,
+          "bottom": 836,
+          "left": 24
+        },
+        "font": "Instrument, Arial, sans-serif",
+        "fontSize": "16px",
+        "display": "block"
+      },
+      "h1": {
+        "rect": {
+          "x": 85,
+          "y": 188,
+          "width": 640,
+          "height": 216,
+          "top": 188,
+          "right": 725,
+          "bottom": 404,
+          "left": 85
+        },
+        "font": "lora, \"lora Fallback\", Lora, Georgia, serif",
+        "fontSize": "72px",
+        "display": "block"
+      },
+      ".home-hero-photo": {
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        "font": "Instrument, Arial, sans-serif",
+        "fontSize": "16px",
+        "display": "none"
+      },
+      ".home-availability": {
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        "font": "Instrument, Arial, sans-serif",
+        "fontSize": "16px",
+        "display": "none"
+      }
+    },
+    "pageHeight": 9814
+  },
+  {
+    "viewport": "mobile",
+    "site": "reference",
+    "boxes": {
+      "[data-framer-name=\"Hero header\"]": {
+        "rect": {
+          "x": 16,
+          "y": 68,
+          "width": 358,
+          "height": 1072,
+          "top": 68,
+          "right": 374,
+          "bottom": 1140,
+          "left": 16
+        },
+        "font": "sans-serif",
+        "fontSize": "12px",
+        "display": "flex"
+      },
+      "h1": {
+        "rect": {
+          "x": 40,
+          "y": 124,
+          "width": 310,
+          "height": 192,
+          "top": 124,
+          "right": 350,
+          "bottom": 316,
+          "left": 40
+        },
+        "font": "Lora, \"Lora Placeholder\", serif",
+        "fontSize": "48px",
+        "display": "block"
+      },
+      "[data-framer-name=\"Software development workspace\"]": {
+        "rect": {
+          "x": 16,
+          "y": 806.875,
+          "width": 358,
+          "height": 333.125,
+          "top": 806.875,
+          "right": 374,
+          "bottom": 1140,
+          "left": 16
+        },
+        "font": "sans-serif",
+        "fontSize": "12px",
+        "display": "block"
+      },
+      "[data-framer-name=\"Trailing card\"]": {
+        "rect": {
+          "x": 40,
+          "y": 1004,
+          "width": 310,
+          "height": 112,
+          "top": 1004,
+          "right": 350,
+          "bottom": 1116,
+          "left": 40
+        },
+        "font": "sans-serif",
+        "fontSize": "12px",
+        "display": "flex"
+      }
+    },
+    "pageHeight": 13044
+  },
+  {
+    "viewport": "mobile",
+    "site": "local",
+    "boxes": {
+      ".home-hero-panel": {
+        "rect": {
+          "x": 16,
+          "y": 68,
+          "width": 358,
+          "height": 1073,
+          "top": 68,
+          "right": 374,
+          "bottom": 1141,
+          "left": 16
+        },
+        "font": "Instrument, Arial, sans-serif",
+        "fontSize": "16px",
+        "display": "flex"
+      },
+      "h1": {
+        "rect": {
+          "x": 40,
+          "y": 124,
+          "width": 310,
+          "height": 192,
+          "top": 124,
+          "right": 350,
+          "bottom": 316,
+          "left": 40
+        },
+        "font": "lora, \"lora Fallback\", Lora, Georgia, serif",
+        "fontSize": "48px",
+        "display": "block"
+      },
+      ".home-hero-photo": {
+        "rect": {
+          "x": 16,
+          "y": 808,
+          "width": 358,
+          "height": 333,
+          "top": 808,
+          "right": 374,
+          "bottom": 1141,
+          "left": 16
+        },
+        "font": "Instrument, Arial, sans-serif",
+        "fontSize": "16px",
+        "display": "block"
+      },
+      ".home-availability": {
+        "rect": {
+          "x": 40,
+          "y": 1005,
+          "width": 310,
+          "height": 112,
+          "top": 1005,
+          "right": 350,
+          "bottom": 1117,
+          "left": 40
+        },
+        "font": "Instrument, Arial, sans-serif",
+        "fontSize": "16px",
+        "display": "block"
+      }
+    },
+    "pageHeight": 13642
+  }
+]

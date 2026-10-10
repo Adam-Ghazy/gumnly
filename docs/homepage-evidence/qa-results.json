@@ -1,0 +1,72 @@
+{
+  "checks": [
+    {
+      "viewport": "desktop",
+      "width": 1440,
+      "height": 1000,
+      "pageHeight": 9987,
+      "overflow": false,
+      "images": "loaded",
+      "services": "click and keyboard passed",
+      "faq": "open and close passed"
+    },
+    {
+      "viewport": "tablet",
+      "width": 810,
+      "height": 1080,
+      "pageHeight": 11740,
+      "overflow": false,
+      "images": "loaded",
+      "services": "click and keyboard passed",
+      "faq": "open and close passed"
+    },
+    {
+      "viewport": "mobile",
+      "width": 390,
+      "height": 844,
+      "pageHeight": 14190,
+      "overflow": false,
+      "images": "loaded",
+      "services": "click and keyboard passed",
+      "faq": "open and close passed"
+    },
+    {
+      "reducedMotion": "ticker stopped; hero visible"
+    },
+    {
+      "route": "/about",
+      "status": 200,
+      "homepageStyleLeak": false
+    },
+    {
+      "route": "/products",
+      "status": 200,
+      "homepageStyleLeak": false
+    },
+    {
+      "route": "/services",
+      "status": 200,
+      "homepageStyleLeak": false
+    },
+    {
+      "route": "/contact",
+      "status": 200,
+      "homepageStyleLeak": false
+    },
+    {
+      "route": "/privacy",
+      "status": 200,
+      "homepageStyleLeak": false
+    },
+    {
+      "route": "/admin/login",
+      "status": 200,
+      "homepageStyleLeak": false
+    },
+    {
+      "route": "/api/admin/company",
+      "status": 401
+    }
+  ],
+  "pageErrors": []
+}
