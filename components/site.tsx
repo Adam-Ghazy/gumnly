@@ -5,7 +5,7 @@ const NAV = [
   { href: '/products', label: 'Produk' },
   { href: '/services', label: 'Layanan' },
   { href: '/about', label: 'Tentang' },
-  { href: '/contact', label: 'Kontak' },
+  { href: '/contact', label: 'Kontak', cta: true },
 ];
 
 export function Wordmark({ width = 132, height = 40, dark = false }: { width?: number; height?: number; dark?: boolean }) {
@@ -56,7 +56,7 @@ export function SiteNav() {
   return (
     <nav className="site-nav" aria-label="Navigasi utama">
       {NAV.map(item => (
-        <Link key={item.href} href={item.href}>{item.label}</Link>
+        <Link key={item.href} href={item.href} className={item.cta ? 'nav-cta' : undefined}>{item.label}</Link>
       ))}
     </nav>
   );
