@@ -1,274 +1,92 @@
 import Link from 'next/link';
 import { getBackend } from '../src/server/runtime.ts';
-import { Reveal, TiltCard } from '../components/motion.tsx';
+import { HomeReveal, HomeNavigation, Count, ServiceTabs, HomeFAQ, CapabilityTicker } from '../components/home-motion.tsx';
+import './home.css';
 
 export const dynamic = 'force-dynamic';
 
-const BENEFITS = [
-  {
-    title: 'Produk SaaS karya sendiri',
-    body: 'Tim kami merancang dan mengembangkan produk digital sendiri, dari konsep hingga rilis bertahap.',
-  },
-  {
-    title: 'Pengembangan khusus selektif',
-    body: 'Proyek yang kami ambil dipilih agar setiap kerja sama tetap fokus dan hasilnya terukur.',
-  },
-  {
-    title: 'Otomasi & integrasi sistem',
-    body: 'Proses manual disusun ulang dan sistem terpisah dihubungkan agar data mengalir konsisten.',
-  },
+// Studi desain referensi — bukan proyek klien GUMNLY; provenance di docs/REFERENCE-ASSETS.md.
+const examples = [['Brandora', 'brandora.jpg'], ['Nivora', 'nivora.jpg'], ['Codify', 'codify.png'], ['Neutra', 'neutra.jpg'], ['Snapkit', 'snapkit.png'], ['Todofusion', 'todofusion.jpg']];
+const benefits = [
+  ['Produk SaaS karya sendiri', 'Kami merancang dan mengembangkan produk digital sendiri, dari perencanaan yang fokus, antarmuka yang intuitif, hingga rilis bertahap.'],
+  ['Layanan berfokus pelanggan', 'Layanan desain dan pengembangan digital yang disesuaikan dengan tantangan bisnis yang perlu Anda selesaikan.'],
+  ['Rilis dan dukungan berkelanjutan', 'Dari konsep menuju peluncuran, lalu terus mengembangkan produk dengan dukungan praktis dan umpan balik pelanggan.'],
+];
+const steps = [
+  ['Discovery', 'Kami mulai dengan memahami tujuan, audiens, kebutuhan merek, dan arah yang harus diambil proyek Anda.'],
+  ['Strategi', 'Kami menentukan struktur, pesan, dan pendekatan kreatif sebelum masuk ke tahap desain visual.'],
+  ['Arah', 'Arah visual yang jelas dibentuk melalui mood, gagasan layout, tipografi, dan bahasa desain keseluruhan.'],
+  ['Desain', 'Layout utama, elemen merek, dan pengalaman digital dikerjakan dengan perhatian penuh pada detail.'],
+  ['Pengembangan', 'Desain diubah menjadi halaman responsif dan rapi dengan interaksi halus dan struktur bersih.'],
+  ['Penyerahan', 'Aset akhir, halaman, dan panduan disiapkan dengan jelas sehingga semuanya siap diluncurkan.'],
+];
+const expertise = [
+  ['Biaya terjangkau', 'Ruang lingkup yang fokus dan prioritas yang jelas menjaga pengembangan tetap praktis.'],
+  ['Konsistensi', 'Sistem visual yang konsisten di seluruh produk dan titik sentuh Anda.'],
+  ['Skalabilitas', 'Sistem yang dirancang mengikuti kebutuhan produk dan bisnis yang terus tumbuh.'],
+  ['Kecepatan', 'Rilis kecil dan terfokus membantu mengubah ide menjadi software yang berfungsi, dengan ruang untuk terus belajar dan membaik.'],
+  ['Fleksibilitas', 'Sesuaikan ruang lingkup dengan kebutuhan produk dan tim Anda.'],
+  ['Lintas disiplin', 'Product thinking, desain, dan rekayasa bekerja sama menyelesaikan masalah yang sama.'],
+  ['Dukungan', 'Komunikasi dan umpan balik yang jelas selama ruang lingkup proyek yang disepakati.'],
+  ['Kemudahan', 'Alur kerja yang lugas, dari percakapan pertama hingga penyerahan.'],
+];
+const faqs = [
+  { q: 'Bagaimana cara mengajukan permintaan proyek?', a: 'Gunakan form di halaman kontak untuk menceritakan tujuan, alur kerja saat ini, dan masalah yang ingin Anda selesaikan. Kami meninjau setiap permintaan sebelum menyepakati ruang lingkup.' },
+  { q: 'Bagaimana proses onboarding berjalan?', a: 'Kami memulai dari discovery, memperjelas ruang lingkup dan batasan, lalu menyepakati langkah berikutnya bersama.' },
+  { q: 'Berapa lama pengerjaan proyek?', a: 'Durasi bergantung pada ruang lingkup, kompleksitas, dan umpan balik. Kami mendiskusikan jadwal yang realistis setelah discovery, bukan menjanjikan waktu tetap.' },
+  { q: 'Apakah bekerja sama dengan tim kami?', a: 'Ya. Kolaborasi dan review berkala membantu kami memahami cara kerja tim Anda yang sebenarnya.' },
+  { q: 'Produk apa yang sedang dibangun?', a: 'Produk SaaS kami sedang dikembangkan. Kunjungi halaman Produk untuk deskripsi dan status terkini.' },
+  { q: 'Bisakah mengajukan proyek sekali jalan?', a: 'Kami menerima proyek software khusus, otomasi, dan integrasi terpilih bila sesuai fokus dan kapasitas kami.' },
+  { q: 'Tools apa yang digunakan?', a: 'Kami memilih tools berdasarkan kebutuhan, sistem yang sudah ada, dan kebutuhan pemeliharaan jangka panjang setiap proyek.' },
+  { q: 'Bagaimana kesepakatan harga dan dukungan?', a: 'Ruang lingkup, harga, penyerahan, dan dukungan didiskusikan satu per satu sebelum pekerjaan dimulai.' },
 ];
 
-const SERVICES = [
-  {
-    title: 'Software khusus',
-    body: 'Aplikasi yang dibangun mengikuti proses bisnis Anda: discovery, desain solusi, pengembangan bertahap bersama tim Anda.',
-  },
-  {
-    title: 'Otomasi alur kerja',
-    body: 'Proses manual yang berulang dipetakan, disusun ulang, lalu diotomasi menjadi alur yang ringkas dan terpantau.',
-  },
-  {
-    title: 'Integrasi sistem',
-    body: 'Sistem terpisah dihubungkan dengan penghubung yang dirancang dan diuji agar data mengalir konsisten.',
-  },
-];
+function SectionHeading({ label, title, description }: { label?: string; title: string; description: string }) {
+  return <HomeReveal className="home-section-heading">{label && <span className="home-tag">{label}</span>}<h2>{title}</h2><p>{description}</p></HomeReveal>;
+}
 
-const PROCESS = [
-  { title: 'Discovery', body: 'Memahami konteks, kebutuhan, dan batasan proyek Anda.' },
-  { title: 'Desain', body: 'Menyusun arsitektur dan rancangan solusi bersama Anda.' },
-  { title: 'Pengembangan', body: 'Membangun perangkat lunak secara bertahap dan terukur.' },
-  { title: 'Review & iterasi', body: 'Uji, iterasi, dan perbaikan sampai solusi layak dipakai.' },
-];
-
-const FAQS = [
-  {
-    q: 'Produk apa yang sedang GUMNLY bangun?',
-    a: 'Kami sedang mengembangkan produk SaaS secara bertahap dan jujur soal statusnya. Daftar produk beserta status terkininya selalu tersedia di halaman Produk.',
-  },
-  {
-    q: 'Apakah GUMNLY menerima proyek pengembangan khusus?',
-    a: 'Ya, secara selektif. Kami memulai dari sesi discovery untuk memahami kebutuhan Anda, lalu menawarkan solusi bila cocok dengan kapasitas dan fokus kami.',
-  },
-  {
-    q: 'Bagaimana alur kerja samanya?',
-    a: 'Discovery, desain solusi, pengembangan bertahap, lalu review dan iterasi sampai solusi layak dipakai sehari-hari oleh tim Anda.',
-  },
-  {
-    q: 'Bagaimana cara menghubungi GUMNLY?',
-    a: 'Gunakan form di halaman kontak. Pesan Anda tersimpan dengan aman dan dibaca tim kami; balasan dikirim ke email yang Anda cantumkan.',
-  },
-];
+function BenefitArt({ index }: { index: number }) {
+  return <div className={`home-benefit-art art-${index}`} aria-hidden="true">{index === 0 ? <div className="home-ui-kit"><div className="home-kit-tools">⌘　⌕　↗　▣　✧　◇</div>{['Utama', 'Sekunder', 'Outline', 'Polos'].map((text, i) => <div key={text}><span className={`kit-button kit-${i}`}>{text}</span><span className={`kit-button kit-${i}`}>{text}</span></div>)}</div> : index === 1 ? <div className="home-chart"><small>Ringkasan produk · studi antarmuka</small><svg viewBox="0 0 360 160"><path d="M0 125 L40 95 L80 110 L120 50 L160 70 L200 30 L240 60 L280 20 L320 30 L360 0" fill="none" stroke="currentColor" strokeWidth="3"/><path d="M0 150 L40 135 L80 140 L120 95 L160 105 L200 75 L240 90 L280 55 L320 70 L360 40" fill="none" stroke="currentColor" strokeWidth="2" opacity=".4"/></svg><div><span>Tren penggunaan</span><span>Wawasan produk</span></div></div> : <div className="home-launch-ui"><span className="home-notice">✓ Siap untuk langkah berikutnya</span><div><small>DALAM PENGEMBANGAN</small><strong>Produk Gumnly</strong><p>Bangun. Belajar. Tingkatkan.</p><div className="home-mini-previews"><img src="/reference/codify.png" alt=""/><img src="/reference/todofusion.jpg" alt=""/></div></div></div>}</div>;
+}
 
 export default async function HomePage() {
   const company = getBackend().company();
   const products = getBackend().products();
-
-  const stats = [
-    { value: String(products.length), label: 'Produk SaaS dibangun sendiri' },
-    { value: 'Selektif', label: 'Proyek khusus yang kami terima' },
-    { value: '3', label: 'Fokus layanan inti' },
-  ];
-
-  return (
-    <>
-      {/* Hero — dua kolom: konten kiri, kartu gelap kanan */}
-      <section className="hero-v2">
-        <div className="container">
-          <div className="hero-v2-grid">
-            <div className="hero-v2-lead">
-              <Reveal><p className="eyebrow">SaaS Products &amp; Software Engineering</p></Reveal>
-              <Reveal delay={0.06}><h1 className="hero-title">{company.headline}</h1></Reveal>
-              <Reveal delay={0.12}><p className="lede">{company.description}</p></Reveal>
-              <Reveal delay={0.18}>
-                <div className="hero-actions">
-                  <Link className="button" href="/products">Jelajahi produk</Link>
-                  <Link className="button button-secondary" href="/services">Lihat layanan</Link>
-                </div>
-              </Reveal>
-              <Reveal delay={0.24}>
-                <ul className="hero-stats">
-                  {stats.map(s => (
-                    <li key={s.label}>
-                      <span className="hero-stats-value">{s.value}</span>
-                      <span className="hero-stats-label">{s.label}</span>
-                    </li>
-                  ))}
-                </ul>
-              </Reveal>
-            </div>
-            <Reveal delay={0.15} className="hero-v2-side">
-              <TiltCard className="hero-card">
-                <div className="hero-card-head">
-                  <p className="hero-card-eyebrow">Cara kami bekerja</p>
-                  <h2>Dibangun bertahap, diukur, jujur soal status</h2>
-                  <p>Setiap produk dan proyek dikerjakan dengan alur yang sama: dipahami dulu, dirancang, dibangun, lalu diiterasi.</p>
-                </div>
-                <figure className="hero-card-visual">
-                  <img src="/brand/hero.png" alt="Ilustrasi konseptual produk SaaS yang terhubung dengan otomasi dan integrasi." width={1000} height={900} />
-                </figure>
-                <Link className="hero-card-cta" href="/about">Kenali tim &amp; cara kerja kami <span aria-hidden="true">→</span></Link>
-              </TiltCard>
-            </Reveal>
-          </div>
+  const headline = company.headline;
+  const description = company.description;
+  return <div className="gumnly-home">
+    <HomeNavigation />
+    <section className="home-hero home-container" aria-label="Pengantar">
+      <div className="home-hero-panel">
+        <div className="home-hero-copy">
+          <HomeReveal delay={0.4}><h1>{headline}</h1></HomeReveal>
+          <HomeReveal delay={0.5} y={24}><p className="home-hero-description">{description}</p></HomeReveal>
+          <HomeReveal delay={0.6} y={0}><div className="home-actions"><Link className="home-button textured" href="#selected-work">Lihat karya</Link><Link className="home-button secondary" href="/contact">Hubungi kami</Link></div></HomeReveal>
+          <HomeReveal delay={0.9} y={48}><dl className="home-stats"><div><dt><Count value={products.length}/></dt><dd>Produk SaaS dikembangkan</dd></div><div><dt><Count value={3}/></dt><dd>Layanan inti</dd></div><div><dt><Count value={6}/></dt><dd>Tahap proses</dd></div></dl></HomeReveal>
         </div>
-      </section>
-
-      {/* Benefits — kenapa GUMNLY */}
-      <section className="section">
-        <div className="container">
-          <Reveal>
-            <div className="section-head">
-              <p className="eyebrow">Kenapa GUMNLY</p>
-              <h2>Fokus pada hasil yang terstruktur dan terukur</h2>
-              <p className="lede">Tiga hal yang menjadi dasar setiap keputusan kami, baik untuk produk sendiri maupun proyek klien.</p>
-            </div>
-          </Reveal>
-          <div className="grid grid-3">
-            {BENEFITS.map((b, i) => (
-              <Reveal key={b.title} delay={i * 0.08}>
-                <article className="benefit-card">
-                  <span className="benefit-dot" aria-hidden="true" />
-                  <h3>{b.title}</h3>
-                  <p>{b.body}</p>
-                </article>
-              </Reveal>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Projects → Produk */}
-      <section className="section">
-        <div className="container">
-          <Reveal>
-            <div className="section-head">
-              <p className="eyebrow">Produk</p>
-              <h2>Produk yang sedang kami bangun</h2>
-              <p className="lede">Kami mengembangkan produk SaaS secara bertahap dan jujur soal statusnya.</p>
-            </div>
-          </Reveal>
-          {products.length === 0 ? (
-            <Reveal><p>Belum ada produk yang dapat ditampilkan. Kunjungi kembali nanti untuk kabar perkembangan.</p></Reveal>
-          ) : (
-            <div className="grid grid-3">
-              {products.map((product, i) => (
-                <Reveal key={product.id} delay={i * 0.08}>
-                  <TiltCard className="product-card" maxTilt={5} maxMove={8}>
-                    <span className="status-badge">Sedang dikembangkan</span>
-                    <h3>{product.name ?? 'Nama produk menyusul'}</h3>
-                    <p>{product.description}</p>
-                  </TiltCard>
-                </Reveal>
-              ))}
-            </div>
-          )}
-          <Reveal><p className="section-more"><Link href="/products">Lihat detail produk →</Link></p></Reveal>
-        </div>
-      </section>
-
-      {/* Why choose me → proyek khusus */}
-      <section className="section">
-        <div className="container split">
-          <Reveal>
-            <p className="eyebrow">Proyek khusus</p>
-            <h2>Butuh software yang menyesuaikan cara kerja tim Anda?</h2>
-            <p className="lede">Kami menerima proyek pengembangan khusus secara selektif, dimulai dari sesi discovery untuk memahami kebutuhan Anda sebelum menawarkan solusi.</p>
-            <Link className="button" href="/contact">Diskusikan proyek Anda</Link>
-          </Reveal>
-          <Reveal delay={0.12}>
-            <figure className="figure-full">
-              <img src="/brand/workflow.png" alt="Discovery, desain, pengembangan, lalu review dan iterasi; pendekatan disesuaikan dengan kebutuhan proyek." width={1200} height={560} />
-              <figcaption className="figure-caption">Alur kerja ilustratif; setiap proyek disesuaikan dengan kebutuhan.</figcaption>
-            </figure>
-          </Reveal>
-        </div>
-      </section>
-
-      {/* Services — baris layanan interaktif */}
-      <section className="section">
-        <div className="container">
-          <Reveal>
-            <div className="section-head">
-              <p className="eyebrow">Layanan</p>
-              <h2>Rekayasa produk, otomasi, dan integrasi</h2>
-              <p className="lede">Kami membangun produk SaaS sendiri sebagai inti bisnis, dan menerima proyek pengembangan software khusus yang terpilih.</p>
-            </div>
-          </Reveal>
-          <ul className="service-rows">
-            {SERVICES.map((s, i) => (
-              <li key={s.title}>
-                <Reveal delay={i * 0.06}>
-                  <Link href="/services" className="service-row">
-                    <span className="service-row-index" aria-hidden="true">{String(i + 1).padStart(2, '0')}</span>
-                    <span className="service-row-body">
-                      <span className="service-row-title">{s.title}</span>
-                      <span className="service-row-desc">{s.body}</span>
-                    </span>
-                    <span className="service-row-arrow" aria-hidden="true">→</span>
-                  </Link>
-                </Reveal>
-              </li>
-            ))}
-          </ul>
-        </div>
-      </section>
-
-      {/* Process */}
-      <section className="section">
-        <div className="container">
-          <Reveal>
-            <div className="section-head">
-              <p className="eyebrow">Proses</p>
-              <h2>Cara kami bekerja</h2>
-              <p className="lede">Satu kerangka kerja sama untuk produk maupun proyek klien, disesuaikan dengan kebutuhan masing-masing.</p>
-            </div>
-          </Reveal>
-          <ol className="steps grid grid-4">
-            {PROCESS.map((p, i) => (
-              <li key={p.title}>
-                <Reveal delay={i * 0.08}>
-                  <h3>{p.title}</h3>
-                  <p>{p.body}</p>
-                </Reveal>
-              </li>
-            ))}
-          </ol>
-        </div>
-      </section>
-
-      {/* FAQs */}
-      <section className="section">
-        <div className="container faq-wrap">
-          <Reveal>
-            <div className="section-head">
-              <p className="eyebrow">FAQ</p>
-              <h2>Pertanyaan yang sering diajukan</h2>
-            </div>
-          </Reveal>
-          <div className="faq-list">
-            {FAQS.map((f, i) => (
-              <Reveal key={f.q} delay={i * 0.05}>
-                <details className="faq-item">
-                  <summary>{f.q}</summary>
-                  <p>{f.a}</p>
-                </details>
-              </Reveal>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* CTA band */}
-      <section className="section section-dark">
-        <div className="container cta-band">
-          <Reveal>
-            <h2>Tertarik pada produk atau butuh solusi khusus?</h2>
-            <p className="lede">Sampaikan minat produk atau kebutuhan proyek Anda melalui halaman kontak.</p>
-            <Link className="button" href="/contact">Buka halaman kontak</Link>
-          </Reveal>
-        </div>
-      </section>
-    </>
-  );
+        <div className="home-hero-photo"><img src="/reference/workspace.jpg" alt="Ruang kerja pengembangan software dengan kode tampil di layar monitor" width={1100} height={1650} fetchPriority="high" /></div>
+        <HomeReveal className="home-availability" delay={0.8} x={-24} y={24}><Link href="/contact"><div><small>Pilih layanan</small><strong>Terima proyek baru</strong><p>Ceritakan bisnis dan tantangan<br/>yang ingin Anda selesaikan.</p></div><span aria-hidden="true">↗</span></Link></HomeReveal>
+      </div>
+      <CapabilityTicker />
+    </section>
+    <section className="home-section home-container home-benefits">
+      <SectionHeading label="Keunggulan" title="Kenapa kami berbeda" description="GUMNLY menggabungkan cara berpikir yang jernih, desain yang cermat, dan teknologi untuk membantu bisnis menciptakan pengalaman digital yang lebih baik."/>
+      <div className="home-benefit-grid">{benefits.map(([title, text], i) => <HomeReveal key={title} delay={i * 0.12} y={96}><article className="home-benefit-card"><BenefitArt index={i}/><div className="home-benefit-copy"><h3>{title}</h3><p>{text}</p></div></article></HomeReveal>)}</div>
+    </section>
+    <section id="selected-work" className="home-section home-container home-projects">
+      <SectionHeading label="Studi desain" title="Membangun produk digital yang berguna" description="Galeri studi desain referensi — bukan proyek klien GUMNLY yang telah selesai. Produk SaaS kami sendiri masih dalam pengembangan."/>
+      <div className="home-project-grid">{examples.map(([name, image], i) => <HomeReveal key={name} delay={i % 2 * 0.1}><a className="home-project" href={`/reference/${image}`} aria-label={`Lihat studi desain referensi ${name}`}><div className="home-project-image"><img src={`/reference/${image}`} alt={`${name} — studi desain referensi, bukan proyek klien GUMNLY`} loading="lazy" width={1600} height={1200}/></div><div className="home-project-label"><span className="home-project-name"><span>{name}</span><span aria-hidden="true">{name}</span></span><span aria-hidden="true">↗</span></div></a></HomeReveal>)}</div>
+      <div className="home-product-status"><Link href="/products">Produk GUMNLY dalam pengembangan ↗</Link>{products.length === 0 ? <p>Belum ada produk yang dapat ditampilkan.</p> : products.map(product => <p key={product.id}><strong>{product.name ?? 'Produk SaaS pertama'}</strong> — {product.description}</p>)}</div>
+    </section>
+    <section className="home-section home-container home-proof">
+      <div className="home-split-heading"><HomeReveal><span className="home-tag">Kenapa GUMNLY</span><h2>Startup yang dibangun untuk menyelesaikan masalah nyata</h2></HomeReveal><HomeReveal delay={0.1}><p>Kami menggabungkan product thinking, pengembangan software, dan layanan berfokus pelanggan untuk mengubah ide yang berguna menjadi solusi digital yang dapat diandalkan.</p></HomeReveal></div>
+      <div className="home-proof-grid"><div className="home-proof-column"><HomeReveal><div className="home-proof-strip"><span aria-hidden="true">◉ ◈ ◇</span>Produk · Desain · Rekayasa</div></HomeReveal><HomeReveal><article className="home-proof-card"><p>Arah desain yang jelas, dibentuk mengikuti tujuan setiap proyek.</p><strong><Count value={6}/></strong><span>Tahap proses kolaboratif</span></article></HomeReveal></div><div className="home-proof-column"><HomeReveal><article className="home-proof-card"><p>Pengembangan software, otomasi, dan integrasi sistem.</p><strong><Count value={3}/></strong><span>Area layanan inti</span></article></HomeReveal><HomeReveal><Link className="home-proof-strip" href="/contact"><i/>Terima proyek baru</Link></HomeReveal></div><HomeReveal className="home-proof-dark"><article><p>Dari produk SaaS baru hingga layanan yang disesuaikan, kami berfokus pada solusi praktis yang membuat pekerjaan sehari-hari lebih sederhana.</p><div><strong>SaaS</strong><span>Produk dalam pengembangan<br/>Dibangun dengan fokus jangka panjang</span></div></article></HomeReveal></div>
+    </section>
+    <section className="home-section home-container home-services"><SectionHeading title="Bangun produk. Kembangkan bisnis Anda." description="Berkolaborasi dengan GUMNLY untuk pengembangan SaaS, platform digital, dan layanan teknologi berkelanjutan yang dirancang di sekitar pelanggan Anda."/><ServiceTabs/></section>
+    <section className="home-section home-container home-process"><div className="home-process-heading"><SectionHeading label="Proses" title="Alur proses yang jelas dan runtut" description="Alur kerja yang jelas dan kolaboratif, membawa setiap proyek dari ide pertama hingga hasil akhir yang rapi."/></div><ol className="home-timeline">{steps.map(([title, text], i) => <li key={title}><HomeReveal y={48}><article><span className="home-step-icon" aria-hidden="true">{['⌕', '◇', '✧', '▧', '⌘', '↗'][i]}</span><div><h3>{title}</h3><p>{text}</p></div></article></HomeReveal></li>)}</ol></section>
+    <section className="home-section home-container home-expertise"><SectionHeading label="Keahlian" title="Dari ide pertama hingga nilai bagi pelanggan" description="Validasi konsep Anda, luncurkan produk yang terfokus, lalu kembangkan bersama umpan balik pelanggan dan dukungan berkelanjutan."/><div className="home-expertise-grid">{expertise.map(([title, text], i) => <HomeReveal className={`expertise-cell expertise-${i}`} key={title} delay={i % 4 * 0.08} y={96}><article><span className="home-expertise-icon" aria-hidden="true">{['◇', '◫', '↗', 'ϟ', '✧', '◈', '♧', '⌘'][i]}</span><div><h3>{title}</h3><p>{text}</p></div></article></HomeReveal>)}</div></section>
+    <section className="home-section home-container home-faq"><SectionHeading title="Jelajahi FAQ kami" description="Jawaban atas pertanyaan seputar proses, harga, timeline, dan detail proyek"/><HomeFAQ items={faqs}/></section>
+    <footer className="home-footer home-container"><div className="home-footer-panel"><div className="home-footer-top"><div><Link className="home-logo" href="/"><span aria-hidden="true">g.</span>Gumnly</Link><p>Gumnly adalah startup teknologi yang membangun produk SaaS dan menghadirkan layanan digital berfokus pelanggan.</p></div><div><strong>Halaman</strong><Link href="/">Beranda</Link><Link href="/about">Tentang</Link><Link href="/products">Produk</Link><Link href="/services">Layanan</Link><Link href="/contact">Kontak</Link></div><div><strong>Informasi</strong><Link href="/privacy">Privasi</Link><a href="#selected-work">Studi desain</a><Link href="/contact">Hubungi kami</Link></div></div><p className="home-footer-wordmark">Gumnly.</p><div className="home-footer-bottom">© {company.name}. Semua hak dilindungi.</div></div></footer>
+    <Link className="home-floating-contact" href="/contact">Kontak Gumnly</Link>
+  </div>;
 }
