@@ -1,0 +1,108 @@
+{
+  "checks": [
+    {
+      "route": "/about",
+      "viewport": "desktop",
+      "overflow": false,
+      "images": "ok",
+      "oldChrome": "hidden"
+    },
+    {
+      "route": "/about",
+      "viewport": "tablet",
+      "overflow": false,
+      "images": "ok",
+      "oldChrome": "hidden"
+    },
+    {
+      "route": "/about",
+      "viewport": "mobile",
+      "overflow": false,
+      "images": "ok",
+      "oldChrome": "hidden"
+    },
+    {
+      "route": "/products",
+      "viewport": "desktop",
+      "overflow": false,
+      "images": "ok",
+      "oldChrome": "hidden"
+    },
+    {
+      "route": "/products",
+      "viewport": "tablet",
+      "overflow": false,
+      "images": "ok",
+      "oldChrome": "hidden"
+    },
+    {
+      "route": "/products",
+      "viewport": "mobile",
+      "overflow": false,
+      "images": "ok",
+      "oldChrome": "hidden"
+    },
+    {
+      "route": "/services",
+      "viewport": "desktop",
+      "overflow": false,
+      "images": "ok",
+      "oldChrome": "hidden"
+    },
+    {
+      "route": "/services",
+      "viewport": "tablet",
+      "overflow": false,
+      "images": "ok",
+      "oldChrome": "hidden"
+    },
+    {
+      "route": "/services",
+      "viewport": "mobile",
+      "overflow": false,
+      "images": "ok",
+      "oldChrome": "hidden"
+    },
+    {
+      "route": "/contact",
+      "viewport": "desktop",
+      "overflow": false,
+      "images": "ok",
+      "oldChrome": "hidden"
+    },
+    {
+      "route": "/contact",
+      "viewport": "tablet",
+      "overflow": false,
+      "images": "ok",
+      "oldChrome": "hidden"
+    },
+    {
+      "route": "/contact",
+      "viewport": "mobile",
+      "overflow": false,
+      "images": "ok",
+      "oldChrome": "hidden"
+    },
+    {
+      "products": "filter interaction passed"
+    },
+    {
+      "services": "tabs passed"
+    },
+    {
+      "mobileMenu": "active item + escape passed"
+    },
+    {
+      "reducedMotion": "no layout jump"
+    },
+    {
+      "contactForm": "Pertanyaan tersimpan secara lokal di server GUMNLY. Email belum dikirim."
+    },
+    {
+      "smoke": "all routes 200",
+      "adminApi": 401
+    }
+  ],
+  "pageErrors": []
+}

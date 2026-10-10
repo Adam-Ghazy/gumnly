@@ -1,0 +1,37 @@
+{
+  "about": {
+    "hero": {
+      "fs": "36px",
+      "lh": "48px",
+      "w": 320,
+      "x": 137
+    },
+    "tag": {
+      "fs": "14px",
+      "pad": "0px",
+      "br": "0px"
+    },
+    "mainX": 0,
+    "containerW": 536
+  },
+  "projects": {
+    "hero": null,
+    "tag": {
+      "fs": "14px",
+      "pad": "0px",
+      "br": "0px"
+    },
+    "mainX": 0,
+    "containerW": null
+  },
+  "contact": {
+    "hero": null,
+    "tag": {
+      "fs": "14px",
+      "pad": "0px",
+      "br": "0px"
+    },
+    "mainX": 0,
+    "containerW": null
+  }
+}
