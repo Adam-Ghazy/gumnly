@@ -38,10 +38,14 @@ export function SiteHeader() {
   return (
     <header className="site-header">
       <div className="container inner">
-        <Link href="/" className="wordmark-link" aria-label="GUMNLY — kembali ke beranda">
-          <Wordmark />
+        <Link href="/" className="wordmark-link" aria-label="GUMNLY, kembali ke beranda">
+          <Wordmark width={144} height={42} />
         </Link>
-        <input id="nav-toggle" type="checkbox" hidden />
+        <input id="nav-toggle" type="checkbox" className="nav-toggle-input" />
+        <label className="nav-toggle" htmlFor="nav-toggle">
+          <span className="nav-toggle-open">Menu</span>
+          <span className="nav-toggle-close">Tutup</span>
+        </label>
         <SiteNav />
       </div>
     </header>
@@ -62,9 +66,16 @@ export function SiteFooter({ name }: { name: string }) {
   return (
     <footer className="site-footer">
       <div className="container inner">
-        <p style={{ margin: 0 }}>{name} — SaaS Products &amp; Software Engineering</p>
-        <p style={{ margin: 0 }}><Link href="/privacy">Privasi</Link> · <Link href="/contact">Kontak</Link></p>
+        <p className="footer-wordmark">gumnly<span className="footer-dot">.</span></p>
+        <p>{name} · SaaS Products &amp; Software Engineering</p>
+        <ul className="footer-links">
+          <li><Link href="/products">Produk</Link></li>
+          <li><Link href="/services">Layanan</Link></li>
+          <li><Link href="/privacy">Privasi</Link></li>
+          <li><Link href="/contact">Kontak</Link></li>
+        </ul>
       </div>
     </footer>
   );
 }
+

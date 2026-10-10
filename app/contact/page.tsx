@@ -5,14 +5,13 @@ export const metadata: Metadata = { title: 'Kontak' };
 
 export default function ContactPage() {
   return (
-    <section className="section">
-      <div className="container grid grid-2" style={{ gap: 'clamp(2rem, 5vw, 4rem)' }}>
+    <section className="page-head">
+      <div className="container split-wide" style={{ paddingBottom: 'var(--space-section)' }}>
         <div>
-          <p className="eyebrow">Kontak</p>
-          <h1>Mari berdiskusi</h1>
-          <p className="lede">Silakan pilih jalur yang sesuai: minat pada produk kami, atau kebutuhan proyek pengembangan khusus.</p>
+          <h1 style={{ maxWidth: '14ch' }}>Mari berdiskusi</h1>
+          <p className="lede" style={{ marginTop: '1.25rem' }}>Silakan pilih jalur yang sesuai: minat pada produk kami, atau kebutuhan proyek pengembangan khusus.</p>
           <p>Pertanyaan Anda disimpan di server GUMNLY dan diteruskan ke penyedia email hanya jika pengiriman email dikonfigurasi. Balasan dikirim ke alamat email yang Anda cantumkan.</p>
-          <p>Kanal resmi lain (telepon, alamat kantor) akan ditambahkan setelah diverifikasi.</p>
+          <p style={{ marginBottom: 0 }}>Kanal resmi lain (telepon, alamat kantor) akan ditambahkan setelah diverifikasi.</p>
         </div>
         <ContactForm />
       </div>

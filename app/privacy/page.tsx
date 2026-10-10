@@ -7,14 +7,13 @@ export const metadata: Metadata = { title: 'Privasi' };
 export default function PrivacyPage() {
   const company = getBackend().company();
   return (
-    <section className="section">
+    <section className="page-head">
       <div className="container">
-        <div className="section-head">
-          <p className="eyebrow">Privasi</p>
-          <h1>Cara kami menangani data Anda</h1>
+        <h1 style={{ maxWidth: '20ch' }}>Cara kami menangani data Anda</h1>
+        <div style={{ marginTop: 'clamp(2.5rem, 6vw, 4rem)', maxWidth: '62ch' }}>
+          <p className="lede">{company.privacy}</p>
+          <p style={{ marginBottom: 0 }}>Halaman ini akan diperbarui sebelum situs diluncurkan secara publik, termasuk detail retensi dan kontak privasi yang telah disetujui.</p>
         </div>
-        <p>{company.privacy}</p>
-        <p>Halaman ini akan diperbarui sebelum situs diluncurkan secara publik, termasuk detail retensi dan kontak privasi yang telah disetujui.</p>
       </div>
     </section>
   );
