@@ -1,0 +1,36 @@
+# dependencies
+node_modules/
+
+# next.js build output
+.next/
+out/
+next-env.d.ts
+
+# testing
+coverage/
+playwright-report/
+test-results/
+
+# lokal & agent — jangan di-commit
+.agents/
+.omp/
+.ai-context/
+AGENTS.md
+HANDOFF-PASS-*.md
+
+# environment & rahasia
+.env
+.env.*
+!.env.example
+
+# database lokal
+data/
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+*.sqlite-*
+
+# log & artefak
+*.log
+*.tsbuildinfo
+.DS_Store
