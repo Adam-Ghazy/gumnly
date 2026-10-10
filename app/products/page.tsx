@@ -1,38 +1,37 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { getBackend } from '../../src/server/runtime.ts';
+import { HomeReveal, HomeNavigation, PageFooter } from '../../components/home-motion.tsx';
+import { ProductGallery } from '../../components/product-gallery.tsx';
+import '../home.css';
+import '../pages.css';
 
 export const dynamic = 'force-dynamic';
 export const metadata: Metadata = { title: 'Produk' };
 
 export default function ProductsPage() {
   const products = getBackend().products();
+  const company = getBackend().company();
   return (
-    <>
-      <section className="page-head">
-        <div className="container">
-          <h1 style={{ maxWidth: '20ch' }}>Produk yang sedang kami kembangkan</h1>
-          <p className="lede">Kami membangun produk SaaS secara bertahap. Semua yang tampil di halaman ini masih dalam pengembangan dan belum tersedia untuk publik.</p>
-        </div>
-      </section>
-      <section className="section" style={{ paddingTop: 'clamp(2.5rem, 6vw, 4rem)' }}>
-        <div className="container">
-          {products.length === 0 ? (
-            <p>Belum ada produk yang dapat ditampilkan.</p>
-          ) : (
-            <ul className="rule-list" style={{ ['--rule-invert' as string]: 'rgba(11, 47, 43, 0.28)' }}>
-              {products.map(product => (
-                <li key={product.id}>
-                  <h2 style={{ fontSize: 'clamp(1.6rem, 3vw, 2.2rem)' }}>{product.name ?? 'Nama produk menyusul'}</h2>
-                  <p className="lede">{product.description}</p>
-                  <p className="status-badge" style={{ marginTop: '1.1rem', marginBottom: 0 }}>Sedang dikembangkan</p>
-                </li>
-              ))}
-            </ul>
-          )}
-          <p style={{ marginTop: '3rem', marginBottom: 0 }}>Ingin tahu lebih jauh atau menyarankan kebutuhan Anda? <Link href="/contact">Sampaikan minat Anda</Link>, kami akan mengabari saat ada kabar perkembangan.</p>
-        </div>
-      </section>
-    </>
+    <div className="gumnly-home">
+      <HomeNavigation active="/products" />
+      <div>
+        <section className="home-container page-hero" aria-label="Pengantar produk">
+          <div className="page-hero-copy">
+            <HomeReveal delay={0.3}><span className="home-tag">Produk</span></HomeReveal>
+            <HomeReveal delay={0.4}><h1>Produk yang sedang kami kembangkan</h1></HomeReveal>
+            <HomeReveal delay={0.5} y={24}><p className="page-hero-description">Kami membangun produk SaaS secara bertahap. Semua yang tampil di halaman ini masih dalam pengembangan dan belum tersedia untuk publik.</p></HomeReveal>
+            <HomeReveal delay={0.6} y={0}><div className="page-hero-actions"><Link className="home-button textured" href="/contact">Sampaikan minat</Link><Link className="home-button secondary" href="/about">Tentang kami</Link></div></HomeReveal>
+          </div>
+        </section>
+        <section className="home-section home-container" aria-label="Daftar produk">
+          <HomeReveal><ProductGallery products={products} /></HomeReveal>
+          <div className="page-reference-note">
+            <p>Ingin tahu lebih jauh atau menyarankan kebutuhan Anda? <Link href="/contact">Sampaikan minat Anda</Link>, kami akan mengabari saat ada kabar perkembangan.</p>
+          </div>
+        </section>
+      </div>
+      <PageFooter companyName={company.name} />
+    </div>
   );
 }

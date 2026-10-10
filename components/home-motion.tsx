@@ -23,7 +23,7 @@ export function Count({ value }: { value: number }) {
 }
 
 const navigation = [['/', 'Beranda'], ['/products', 'Produk'], ['/services', 'Layanan'], ['/about', 'Tentang'], ['/contact', 'Kontak']];
-export function HomeNavigation() {
+export function HomeNavigation({ active }: { active?: string }) {
   const [open, setOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
   const reduced = useReducedMotion();
@@ -39,12 +39,16 @@ export function HomeNavigation() {
   return <header className={`home-nav ${scrolled ? 'is-scrolled' : ''}`}>
     <div className="home-nav-inner">
       <Link href="/" className="home-logo" aria-label="Gumnly home"><span aria-hidden="true">g.</span>Gumnly</Link>
-      <nav className="home-desktop-links" aria-label="Navigasi beranda">{navigation.map(([href, text]) => <Link key={href} href={href}>{text}</Link>)}</nav>
+      <nav className="home-desktop-links" aria-label="Navigasi utama">{navigation.map(([href, text]) => <Link key={href} href={href} aria-current={active === href ? 'page' : undefined} className={active === href ? 'is-active' : undefined}>{text}</Link>)}</nav>
       <Link href="/contact" className="home-button home-nav-cta">Mari bicara <span aria-hidden="true">↗</span></Link>
       <button className="home-menu-toggle" aria-label={open ? 'Tutup menu' : 'Buka menu'} aria-expanded={open} aria-controls="home-mobile-menu" onClick={() => setOpen(!open)}><span /><span /></button>
     </div>
-    <AnimatePresence>{open && <motion.nav id="home-mobile-menu" className="home-mobile-menu" aria-label="Navigasi mobile" initial={{ height: 0, opacity: 0 }} animate={{ height: 'auto', opacity: 1 }} exit={{ height: 0, opacity: 0 }} transition={{ duration: reduced ? 0 : 0.25 }}>{navigation.map(([href, text]) => <Link onClick={() => setOpen(false)} key={href} href={href}>{text}</Link>)}</motion.nav>}</AnimatePresence>
+    <AnimatePresence>{open && <motion.nav id="home-mobile-menu" className="home-mobile-menu" aria-label="Navigasi mobile" initial={{ height: 0, opacity: 0 }} animate={{ height: 'auto', opacity: 1 }} exit={{ height: 0, opacity: 0 }} transition={{ duration: reduced ? 0 : 0.25 }}>{navigation.map(([href, text]) => <Link onClick={() => setOpen(false)} key={href} href={href} aria-current={active === href ? 'page' : undefined} className={active === href ? 'is-active' : undefined}>{text}</Link>)}</motion.nav>}</AnimatePresence>
   </header>;
+}
+
+export function PageFooter({ companyName }: { companyName: string }) {
+  return <footer className="home-footer home-container"><div className="home-footer-panel"><div className="home-footer-top"><div><Link className="home-logo" href="/"><span aria-hidden="true">g.</span>Gumnly</Link><p>Gumnly adalah startup teknologi yang membangun produk SaaS dan menghadirkan layanan digital berfokus pelanggan.</p></div><div><strong>Halaman</strong><Link href="/">Beranda</Link><Link href="/about">Tentang</Link><Link href="/products">Produk</Link><Link href="/services">Layanan</Link><Link href="/contact">Kontak</Link></div><div><strong>Informasi</strong><Link href="/privacy">Privasi</Link><Link href="/services">Layanan</Link><Link href="/contact">Hubungi kami</Link></div></div><p className="home-footer-wordmark">Gumnly.</p><div className="home-footer-bottom">© {companyName}. Semua hak dilindungi.</div></div></footer>;
 }
 
 export const services = [
