@@ -7,7 +7,7 @@ import '../home.css';
 import '../pages.css';
 
 export const dynamic = 'force-dynamic';
-export const metadata: Metadata = { title: 'Produk' };
+export const metadata: Metadata = { title: 'Products' };
 
 export default function ProductsPage() {
   const products = getBackend().products();
@@ -16,18 +16,18 @@ export default function ProductsPage() {
     <div className="gumnly-home">
       <HomeNavigation active="/products" />
       <div>
-        <section className="home-container page-hero" aria-label="Pengantar produk">
+        <section className="home-container page-hero" aria-label="Products introduction">
           <div className="page-hero-copy">
-            <HomeReveal delay={0.3}><span className="home-tag">Produk</span></HomeReveal>
-            <HomeReveal delay={0.4}><h1>Produk yang sedang kami kembangkan</h1></HomeReveal>
-            <HomeReveal delay={0.5} y={24}><p className="page-hero-description">Kami membangun produk SaaS secara bertahap. Semua yang tampil di halaman ini masih dalam pengembangan dan belum tersedia untuk publik.</p></HomeReveal>
-            <HomeReveal delay={0.6} y={0}><div className="page-hero-actions"><Link className="home-button textured" href="/contact">Sampaikan minat</Link><Link className="home-button secondary" href="/about">Tentang kami</Link></div></HomeReveal>
+            <HomeReveal delay={0.3}><span className="home-tag">Products</span></HomeReveal>
+            <HomeReveal delay={0.4}><h1>Products in development</h1></HomeReveal>
+            <HomeReveal delay={0.5} y={24}><p className="page-hero-description">We are developing our SaaS products in stages. The products listed here are not yet available to the public.</p></HomeReveal>
+            <HomeReveal delay={0.6} y={0}><div className="page-hero-actions"><Link className="home-button textured" href="/contact">Register your interest</Link><Link className="home-button secondary" href="/about">About us</Link></div></HomeReveal>
           </div>
         </section>
-        <section className="home-section home-container" aria-label="Daftar produk">
+        <section className="home-section home-container" aria-label="Product list">
           <HomeReveal><ProductGallery products={products} /></HomeReveal>
           <div className="page-reference-note">
-            <p>Ingin tahu lebih jauh atau menyarankan kebutuhan Anda? <Link href="/contact">Sampaikan minat Anda</Link>, kami akan mengabari saat ada kabar perkembangan.</p>
+            <p>Want to know more or suggest a use case? <Link href="/contact">Tell us what you need</Link>, and we can discuss the next steps.</p>
           </div>
         </section>
       </div>

@@ -1,11 +1,11 @@
 import Link from 'next/link';
 
 const NAV = [
-  { href: '/', label: 'Beranda' },
-  { href: '/products', label: 'Produk' },
-  { href: '/services', label: 'Layanan' },
-  { href: '/about', label: 'Tentang' },
-  { href: '/contact', label: 'Kontak', cta: true },
+  { href: '/', label: 'Home' },
+  { href: '/products', label: 'Products' },
+  { href: '/services', label: 'Services' },
+  { href: '/about', label: 'About' },
+  { href: '/contact', label: 'Contact', cta: true },
 ];
 
 export function Wordmark({ width = 132, height = 40, dark = false }: { width?: number; height?: number; dark?: boolean }) {
@@ -38,13 +38,13 @@ export function SiteHeader() {
   return (
     <header className="site-header">
       <div className="container inner">
-        <Link href="/" className="wordmark-link" aria-label="GUMNLY, kembali ke beranda">
+        <Link href="/" className="wordmark-link" aria-label="GUMNLY, back to home">
           <Wordmark width={144} height={42} />
         </Link>
         <input id="nav-toggle" type="checkbox" className="nav-toggle-input" />
         <label className="nav-toggle" htmlFor="nav-toggle">
           <span className="nav-toggle-open">Menu</span>
-          <span className="nav-toggle-close">Tutup</span>
+          <span className="nav-toggle-close">Close</span>
         </label>
         <SiteNav />
       </div>
@@ -54,7 +54,7 @@ export function SiteHeader() {
 
 export function SiteNav() {
   return (
-    <nav className="site-nav" aria-label="Navigasi utama">
+    <nav className="site-nav" aria-label="Main navigation">
       {NAV.map(item => (
         <Link key={item.href} href={item.href} className={item.cta ? 'nav-cta' : undefined}>{item.label}</Link>
       ))}
@@ -69,10 +69,10 @@ export function SiteFooter({ name }: { name: string }) {
         <p className="footer-wordmark">gumnly<span className="footer-dot">.</span></p>
         <p>{name} · SaaS Products &amp; Software Engineering</p>
         <ul className="footer-links">
-          <li><Link href="/products">Produk</Link></li>
-          <li><Link href="/services">Layanan</Link></li>
-          <li><Link href="/privacy">Privasi</Link></li>
-          <li><Link href="/contact">Kontak</Link></li>
+          <li><Link href="/products">Products</Link></li>
+          <li><Link href="/services">Services</Link></li>
+          <li><Link href="/privacy">Privacy</Link></li>
+          <li><Link href="/contact">Contact</Link></li>
         </ul>
       </div>
     </footer>

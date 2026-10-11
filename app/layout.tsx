@@ -11,16 +11,16 @@ const inter = localFont({ src: './fonts/inter-latin.woff2', weight: '400 600', s
 
 export const metadata: Metadata = {
   title: { default: 'GUMNLY Tech — SaaS Products & Software Engineering', template: '%s — GUMNLY Tech' },
-  description: 'GUMNLY mengembangkan produk SaaS dan solusi software khusus untuk membantu bisnis mengelola proses kerja dengan lebih terstruktur.',
+  description: 'GUMNLY builds SaaS products and provides custom software, automation, and integration services.',
 };
 
 export default function RootLayout({ children }: { children: ReactNode }) {
   let name = 'GUMNLY Tech';
   try { name = getBackend().company().name; } catch { /* fail closed: default name */ }
   return (
-    <html lang="id" className={`${lora.variable} ${manrope.variable} ${inter.variable}`}>
+    <html lang="en" className={`${lora.variable} ${manrope.variable} ${inter.variable}`}>
       <body>
-        <a className="skip-link" href="#main">Langsung ke konten utama</a>
+        <a className="skip-link" href="#main">Skip to main content</a>
         <SiteHeader />
         <main id="main">{children}</main>
         <SiteFooter name={name} />
