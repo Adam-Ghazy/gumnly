@@ -36,3 +36,9 @@ data/
 *.log
 *.tsbuildinfo
 .DS_Store
+# artefak intermediate qa fidelitas (final di docs/fidelity-evidence/final)
+docs/fidelity-evidence/live/
+docs/fidelity-evidence/qa/
+docs/fidelity-evidence/live-interactions/
+docs/fidelity-evidence/gumnly-*.png
+docs/fidelity-evidence/*.log
