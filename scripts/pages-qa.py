@@ -8,12 +8,12 @@ OUT = Path(os.environ.get('QA_OUTPUT', 'docs/page-evidence'))
 OUT.mkdir(parents=True, exist_ok=True)
 URL = os.environ.get('QA_URL', 'http://127.0.0.1:37922')
 PAGES = {
-    '/about': {'tag': 'Tentang kami', 'nav': 'Tentang', 'checks': ['Pendekatan', 'Prinsip', 'Dari rasa ingin tahu menjadi produk']},
-    '/products': {'tag': 'Produk', 'nav': 'Produk', 'checks': ['Sedang dikembangkan']},
-    '/services': {'tag': 'Layanan', 'nav': 'Layanan', 'checks': ['Tiga cara kami membantu', 'Software khusus', 'Otomasi alur kerja', 'Integrasi sistem']},
-    '/contact': {'tag': 'Kontak', 'nav': 'Kontak', 'checks': ['Menerima proyek terpilih']},
+    '/about': {'tag': 'About us', 'nav': 'About', 'checks': ['Approach', 'Principles', 'From an idea to a working product']},
+    '/products': {'tag': 'Products', 'nav': 'Products', 'checks': ['In development']},
+    '/services': {'tag': 'Services', 'nav': 'Services', 'checks': ['Three ways we can help', 'Custom software', 'Workflow automation', 'System integration']},
+    '/contact': {'tag': 'Contact', 'nav': 'Contact', 'checks': ['Open to selected projects']},
 }
-VIEWPORTS = [('desktop', 1440, 1000), ('tablet', 810, 1080), ('mobile', 390, 844)]
+VIEWPORTS = [('desktop', 1440, 1000), ('tablet', 834, 1080), ('mobile', 390, 844), ('narrow', 320, 844)]
 
 async def settle(page):
     await page.wait_for_timeout(900)
@@ -36,6 +36,7 @@ async def main():
                 await page.goto(URL + route, wait_until='networkidle')
                 await settle(page)
                 stem = route.strip('/') + '-' + name
+                await page.evaluate('scrollTo(0,0)'); await page.wait_for_timeout(400)
                 await page.screenshot(path=str(OUT / f'{stem}-hero.png'))
                 await page.screenshot(path=str(OUT / f'{stem}-full.png'), full_page=True)
                 body = await page.inner_text('body')
@@ -58,23 +59,23 @@ async def main():
         # products: filter interaction
         await page.set_viewport_size({'width': 1440, 'height': 1000})
         await page.goto(URL + '/products', wait_until='networkidle')
-        await page.get_by_role('button', name='Dalam pengembangan').click()
+        await page.get_by_role('button', name='In development').click()
         await page.wait_for_timeout(300)
-        assert await page.get_by_role('button', name='Dalam pengembangan').get_attribute('aria-pressed') == 'true'
+        assert await page.get_by_role('button', name='In development').get_attribute('aria-pressed') == 'true'
         results.append({'products': 'filter interaction passed'})
         # services: tabs
         await page.goto(URL + '/services', wait_until='networkidle')
-        tab = page.get_by_role('tab', name='Otomasi alur kerja')
+        tab = page.get_by_role('tab', name='Workflow automation')
         await tab.click(); await page.wait_for_timeout(400)
         assert await tab.get_attribute('aria-selected') == 'true'
         results.append({'services': 'tabs passed'})
         # mobile menu on each page
         await page.set_viewport_size({'width': 390, 'height': 844})
         await page.goto(URL + '/services', wait_until='networkidle')
-        await page.get_by_role('button', name='Buka menu').click(); await page.wait_for_timeout(400)
-        assert await page.get_by_role('navigation', name='Navigasi mobile').is_visible()
+        await page.get_by_role('button', name='Open menu').click(); await page.wait_for_timeout(400)
+        assert await page.get_by_role('navigation', name='Mobile navigation').is_visible()
         assert await page.locator('.home-mobile-menu a[href="/services"]').get_attribute('aria-current') == 'page'
-        await page.get_by_role('button', name='Tutup menu').press('Escape'); await page.wait_for_timeout(400)
+        await page.get_by_role('button', name='Close menu').press('Escape'); await page.wait_for_timeout(400)
         results.append({'mobileMenu': 'active item + escape passed'})
         # reduced motion
         await page.emulate_media(reduced_motion='reduce')
@@ -89,12 +90,12 @@ async def main():
         await page.goto(URL + '/contact', wait_until='networkidle')
         await page.fill('#name', 'QA Browser')
         await page.fill('#email', 'qa@example.com')
-        await page.fill('#message', 'Pesan uji dari QA browser otomatis untuk verifikasi penyimpanan.')
+        await page.fill('#message', 'Message uji dari QA browser otomatis untuk verifikasi penyimpanan.')
         await page.check('input[name="consent"]')
-        await page.get_by_role('button', name='Kirim pertanyaan').click()
+        await page.get_by_role('button', name='Send enquiry').click()
         await page.wait_for_timeout(1200)
         notice = await page.locator('.page-contact-form .notice').inner_text()
-        assert 'Pertanyaan tersimpan' in notice, notice
+        assert 'Your enquiry is saved' in notice, notice
         results.append({'contactForm': notice.strip()})
         # smoke routes + api
         for route in ['/', '/about', '/products', '/services', '/contact', '/privacy', '/admin/login']:
