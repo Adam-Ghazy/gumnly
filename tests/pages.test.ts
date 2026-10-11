@@ -25,19 +25,19 @@ test('public pages reuse the homepage design language and hide the global chrome
 });
 
 test('each page marks its own nav item as the active page', () => {
-  assert.match(renderToStaticMarkup(createElement(HomeNavigation, { active: '/about' })), /aria-current="page"[^>]*>Tentang</);
-  assert.match(renderToStaticMarkup(createElement(HomeNavigation, { active: '/products' })), /aria-current="page"[^>]*>Produk</);
-  assert.match(renderToStaticMarkup(createElement(HomeNavigation, { active: '/services' })), /aria-current="page"[^>]*>Layanan</);
-  assert.match(renderToStaticMarkup(createElement(HomeNavigation, { active: '/contact' })), /aria-current="page"[^>]*>Kontak</);
-  assert.doesNotMatch(renderToStaticMarkup(createElement(HomeNavigation, { active: '/about' })), /aria-current="page"[^>]*>Produk</);
+  assert.match(renderToStaticMarkup(createElement(HomeNavigation, { active: '/about' })), /aria-current="page"[^>]*>About</);
+  assert.match(renderToStaticMarkup(createElement(HomeNavigation, { active: '/products' })), /aria-current="page"[^>]*>Products</);
+  assert.match(renderToStaticMarkup(createElement(HomeNavigation, { active: '/services' })), /aria-current="page"[^>]*>Services</);
+  assert.match(renderToStaticMarkup(createElement(HomeNavigation, { active: '/contact' })), /aria-current="page"[^>]*>Contact</);
+  assert.doesNotMatch(renderToStaticMarkup(createElement(HomeNavigation, { active: '/about' })), /aria-current="page"[^>]*>Products</);
 });
 
-test('page copy stays Indonesian GUMNLY branding without template names', () => {
-  assert.match(pages.about, /Tentang kami/);
+test('page copy uses English GUMNLY branding without template names', () => {
+  assert.match(pages.about, /About us/);
   assert.match(pages.about, /getBackend\(\)\.company\(\)/);
   assert.match(pages.products, /getBackend\(\)\.products\(\)/);
-  assert.match(read('../components/product-gallery.tsx'), /Belum ada produk yang dapat ditampilkan/);
-  assert.match(pages.services, /Software khusus|Otomasi alur kerja|Integrasi sistem/);
+  assert.match(read('../components/product-gallery.tsx'), /No products to show yet/);
+  assert.match(pages.services, /Custom software|Workflow automation|System integration/);
   assert.match(pages.contact, /ContactForm/);
   for (const source of Object.values(pages)) {
     for (const banned of ['Sevora', 'Stylokit', 'Good design starts', 'Selected work', "Let's talk about your next project", 'Jane Smith', 'jane@framer', 'Happy clients', 'Years of experience']) {
@@ -49,14 +49,14 @@ test('page copy stays Indonesian GUMNLY branding without template names', () => 
 test('product gallery renders db-driven cards with in-development status', () => {
   const markup = renderToStaticMarkup(createElement(ProductGallery, { products: [{ id: 'first-product', name: null, description: 'Deskripsi produk.', status: 'in-development' }] }));
   assert.match(markup, /page-product-card/);
-  assert.match(markup, /Nama produk menyusul/);
-  assert.match(markup, /Sedang dikembangkan/);
-  assert.match(markup, /aria-pressed="true"[^>]*>Semua</);
-  assert.match(renderToStaticMarkup(createElement(ProductGallery, { products: [] })), /Belum ada produk/);
+  assert.match(markup, /Product name to follow/);
+  assert.match(markup, /In development/);
+  assert.match(markup, /aria-pressed="true"[^>]*>All</);
+  assert.match(renderToStaticMarkup(createElement(ProductGallery, { products: [] })), /No products/);
 });
 
 test('page footer carries truthful GUMNLY branding only', () => {
   const markup = renderToStaticMarkup(createElement(PageFooter, { companyName: 'GUMNLY Tech' }));
-  assert.match(markup, /GUMNLY Tech\. Semua hak dilindungi/);
+  assert.match(markup, /GUMNLY Tech\. All rights reserved/);
   assert.match(markup, /href="\/privacy"/);
 });

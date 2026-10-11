@@ -7,11 +7,11 @@ test('contact payload preserves the selected enquiry and honeypot without invent
   form.set('kind', 'project');
   form.set('name', '  Ayu  ');
   form.set('email', '  ayu@example.com  ');
-  form.set('message', '  Integrasi sistem untuk usaha kami.  ');
+  form.set('message', '  System integration untuk usaha kami.  ');
   form.set('website', 'spam.example');
   assert.deepEqual(contactPayload(form), {
     kind: 'project', name: 'Ayu', email: 'ayu@example.com',
-    message: 'Integrasi sistem untuk usaha kami.', consent: false, website: 'spam.example',
+    message: 'System integration untuk usaha kami.', consent: false, website: 'spam.example',
   });
   form.set('consent', 'on');
   assert.equal(contactPayload(form).consent, true);
@@ -21,14 +21,14 @@ test('contact payload preserves the selected enquiry and honeypot without invent
 
 test('contact feedback distinguishes persistence from email acceptance and keeps failures actionable', () => {
   assert.deepEqual(contactResult(true, { delivery: 'stored' }), {
-    ok: true, message: 'Pertanyaan tersimpan secara lokal di server GUMNLY. Email belum dikirim.',
+    ok: true, message: 'Your enquiry is saved on the GUMNLY server. No email has been sent.',
   });
   assert.deepEqual(contactResult(true, { delivery: 'accepted' }), {
-    ok: true, message: 'Pertanyaan tersimpan. Penyedia email menerima pesan; ini bukan jaminan pesan masuk ke kotak masuk.',
+    ok: true, message: 'Your enquiry is saved. The email provider accepted the message; inbox delivery is not confirmed.',
   });
   for (const delivery of ['pending', 'failed']) {
     assert.deepEqual(contactResult(true, { delivery }), {
-      ok: true, message: 'Pertanyaan tersimpan. Penerimaan email belum dikonfirmasi; Anda tidak perlu mengirim ulang.',
+      ok: true, message: 'Your enquiry is saved. Email delivery is not confirmed; there is no need to submit again.',
     });
   }
   assert.deepEqual(contactResult(false, { error: 'Terlalu banyak percobaan. Coba lagi nanti.' }), {

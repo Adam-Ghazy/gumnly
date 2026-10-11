@@ -22,16 +22,16 @@ test('homepage interactive controls render accessible relationships and truthful
  assert.equal((tabs.match(/role="tab"/g) ?? []).length, 3);
  assert.match(tabs, /aria-selected="true"/);
  assert.match(tabs, /development.png/);
- assert.match(renderToStaticMarkup(createElement(HomeNavigation)), /aria-label="Buka menu"/);
+ assert.match(renderToStaticMarkup(createElement(HomeNavigation)), /aria-label="Open menu"/);
  assert.equal(renderToStaticMarkup(createElement(Count, { value: 0 })), '<span>0</span>');
 });
 
-test('homepage copy stays Indonesian GUMNLY branding', () => {
+test('homepage copy uses English GUMNLY branding', () => {
  const source = readFileSync(new URL('../app/page.tsx', import.meta.url), 'utf8');
- assert.match(source, /Terima proyek baru/);
- assert.match(source, /Studi desain/);
- assert.match(source, /Semua hak dilindungi/);
- for (const leftover of ['Available for projects', 'View projects', 'Get in touch', 'Discover why we stand out', 'Explore our FAQs']) {
+ assert.match(source, /Available for projects/);
+ assert.match(source, /Design studies/);
+ assert.match(source, /All rights reserved/);
+ for (const leftover of ['Terima proyek baru', 'Lihat karya', 'Hubungi kami', 'Kenapa kami berbeda', 'Jelajahi FAQ']) {
   assert.doesNotMatch(source, new RegExp(leftover.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')));
  }
 });
