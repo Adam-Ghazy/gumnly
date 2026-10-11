@@ -22,7 +22,7 @@ export function Count({ value }: { value: number }) {
   return <span ref={ref}>{value}</span>;
 }
 
-const navigation = [['/', 'Beranda'], ['/products', 'Produk'], ['/services', 'Layanan'], ['/about', 'Tentang'], ['/contact', 'Kontak']];
+const navigation = [['/', 'Home'], ['/products', 'Products'], ['/services', 'Services'], ['/about', 'About'], ['/contact', 'Contact']];
 export function HomeNavigation({ active }: { active?: string }) {
   const [open, setOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
@@ -39,22 +39,22 @@ export function HomeNavigation({ active }: { active?: string }) {
   return <header className={`home-nav ${scrolled ? 'is-scrolled' : ''}`}>
     <div className="home-nav-inner">
       <Link href="/" className="home-logo" aria-label="Gumnly home"><span aria-hidden="true">g.</span>Gumnly</Link>
-      <nav className="home-desktop-links" aria-label="Navigasi utama">{navigation.map(([href, text]) => <Link key={href} href={href} aria-current={active === href ? 'page' : undefined} className={active === href ? 'is-active' : undefined}>{text}</Link>)}</nav>
-      <Link href="/contact" className="home-button home-nav-cta">Mari bicara <span aria-hidden="true">↗</span></Link>
-      <button className="home-menu-toggle" aria-label={open ? 'Tutup menu' : 'Buka menu'} aria-expanded={open} aria-controls="home-mobile-menu" onClick={() => setOpen(!open)}><span /><span /></button>
+      <nav className="home-desktop-links" aria-label="Main navigation">{navigation.map(([href, text]) => <Link key={href} href={href} aria-current={active === href ? 'page' : undefined} className={active === href ? 'is-active' : undefined}>{text}</Link>)}</nav>
+      <Link href="/contact" className="home-button home-nav-cta">Let’s talk <span aria-hidden="true">↗</span></Link>
+      <button className="home-menu-toggle" aria-label={open ? 'Close menu' : 'Open menu'} aria-expanded={open} aria-controls="home-mobile-menu" onClick={() => setOpen(!open)}><span /><span /></button>
     </div>
-    <AnimatePresence>{open && <motion.nav id="home-mobile-menu" className="home-mobile-menu" aria-label="Navigasi mobile" initial={{ height: 0, opacity: 0 }} animate={{ height: 'auto', opacity: 1 }} exit={{ height: 0, opacity: 0 }} transition={{ duration: reduced ? 0 : 0.25 }}>{navigation.map(([href, text]) => <Link onClick={() => setOpen(false)} key={href} href={href} aria-current={active === href ? 'page' : undefined} className={active === href ? 'is-active' : undefined}>{text}</Link>)}</motion.nav>}</AnimatePresence>
+    <AnimatePresence>{open && <motion.nav id="home-mobile-menu" className="home-mobile-menu" aria-label="Mobile navigation" initial={{ height: 0, opacity: 0 }} animate={{ height: 'auto', opacity: 1 }} exit={{ height: 0, opacity: 0 }} transition={{ duration: reduced ? 0 : 0.25 }}>{navigation.map(([href, text]) => <Link onClick={() => setOpen(false)} key={href} href={href} aria-current={active === href ? 'page' : undefined} className={active === href ? 'is-active' : undefined}>{text}</Link>)}</motion.nav>}</AnimatePresence>
   </header>;
 }
 
 export function PageFooter({ companyName }: { companyName: string }) {
-  return <footer className="home-footer home-container"><div className="home-footer-panel"><div className="home-footer-top"><div><Link className="home-logo" href="/"><span aria-hidden="true">g.</span>Gumnly</Link><p>Gumnly adalah startup teknologi yang membangun produk SaaS dan menghadirkan layanan digital berfokus pelanggan.</p></div><div><strong>Halaman</strong><Link href="/">Beranda</Link><Link href="/about">Tentang</Link><Link href="/products">Produk</Link><Link href="/services">Layanan</Link><Link href="/contact">Kontak</Link></div><div><strong>Informasi</strong><Link href="/privacy">Privasi</Link><Link href="/services">Layanan</Link><Link href="/contact">Hubungi kami</Link></div></div><p className="home-footer-wordmark">Gumnly.</p><div className="home-footer-bottom">© {companyName}. Semua hak dilindungi.</div></div></footer>;
+  return <footer className="home-footer home-container"><div className="home-footer-panel"><div className="home-footer-top"><div><Link className="home-logo" href="/"><span aria-hidden="true">g.</span>Gumnly</Link><p>Gumnly builds SaaS products and provides custom software, automation, and integration services.</p></div><div><strong>Pages</strong><Link href="/">Home</Link><Link href="/about">About</Link><Link href="/products">Products</Link><Link href="/services">Services</Link><Link href="/contact">Contact</Link></div><div><strong>Information</strong><Link href="/privacy">Privacy</Link><Link href="/services">Services</Link><Link href="/contact">Get in touch</Link></div></div><p className="home-footer-wordmark">Gumnly.</p><div className="home-footer-bottom">© {companyName}. All rights reserved.</div></div></footer>;
 }
 
 export const services = [
-  { title: 'Software khusus', icon: '⌘', text: 'Aplikasi yang dibangun mengikuti proses bisnis Anda: discovery, desain solusi, dan pengembangan bertahap bersama tim Anda.' },
-  { title: 'Otomasi alur kerja', icon: '✧', text: 'Proses manual yang berulang dipetakan, disusun ulang, lalu diotomasi menjadi alur yang ringkas dan terpantau.' },
-  { title: 'Integrasi sistem', icon: '◇', text: 'Sistem terpisah dihubungkan dengan penghubung yang dirancang dan diuji agar data mengalir konsisten.' },
+  { title: 'Custom software', icon: '⌘', text: 'Applications built around your workflow, from discovery and design to development with your team.' },
+  { title: 'Workflow automation', icon: '✧', text: 'Turn repetitive manual tasks into shorter, trackable workflows.' },
+  { title: 'System integration', icon: '◇', text: 'Connect separate systems with tested integrations that keep your data consistent.' },
 ];
 
 export function ServiceTabs() {
@@ -62,14 +62,14 @@ export function ServiceTabs() {
   const reduced = useReducedMotion();
   const refs = useRef<(HTMLButtonElement | null)[]>([]);
   return <div className="home-service-layout">
-    <div role="tablist" aria-label="Layanan" aria-orientation="vertical" className="home-service-tabs">{services.map((service, i) => <button key={service.title} ref={el => { refs.current[i] = el; }} role="tab" id={`service-tab-${i}`} aria-controls="service-panel" aria-selected={active === i} tabIndex={active === i ? 0 : -1} onClick={() => setActive(i)} onKeyDown={e => {
+    <div role="tablist" aria-label="Services" aria-orientation="vertical" className="home-service-tabs">{services.map((service, i) => <button key={service.title} ref={el => { refs.current[i] = el; }} role="tab" id={`service-tab-${i}`} aria-controls="service-panel" aria-selected={active === i} tabIndex={active === i ? 0 : -1} onClick={() => setActive(i)} onKeyDown={e => {
       if (!['ArrowDown', 'ArrowUp', 'Home', 'End'].includes(e.key)) return;
       e.preventDefault(); const next = e.key === 'Home' ? 0 : e.key === 'End' ? 2 : (active + (e.key === 'ArrowDown' ? 1 : 2)) % 3;
       setActive(next); refs.current[next]?.focus();
     }}><span className="home-service-icon" aria-hidden="true">{service.icon}</span><strong>{service.title}</strong><span>{service.text}</span></button>)}</div>
     <div role="tabpanel" id="service-panel" aria-labelledby={`service-tab-${active}`} tabIndex={0} className="home-service-art">
       <AnimatePresence mode="wait"><motion.div key={active} className={`home-layer-stack layer-${active}`} initial={{ opacity: 0, y: reduced ? 0 : 24 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0 }} transition={{ duration: reduced ? 0 : 0.35 }}>
-        {[2, 1, 0].map((layer) => <div className="home-interface-layer" key={layer} style={{ '--layer': layer } as React.CSSProperties}><img src={`/reference/${['development.png', 'visual-system.png', 'product-design.png'][active]}`} alt={layer === 0 ? `Studi antarmuka ${services[active].title}` : ''} /></div>)}
+        {[2, 1, 0].map((layer) => <div className="home-interface-layer" key={layer} style={{ '--layer': layer } as React.CSSProperties}><img src={`/reference/${['development.png', 'visual-system.png', 'product-design.png'][active]}`} alt={layer === 0 ? `Interface study ${services[active].title}` : ''} /></div>)}
       </motion.div></AnimatePresence>
     </div>
   </div>;
@@ -83,6 +83,6 @@ export function HomeFAQ({ items }: { items: { q: string; a: string }[] }) {
 
 export function CapabilityTicker() {
   const reduced = useReducedMotion();
-  const labels = ['Produk SaaS', 'Rekayasa software', 'Otomasi', 'Integrasi sistem', 'Desain produk', 'Dukungan berkelanjutan'];
-  return <div className="home-ticker" aria-label="Kapabilitas kami"><motion.div className="home-ticker-track" animate={reduced ? { x: 0 } : { x: ['0%', '-50%'] }} transition={{ duration: 32, ease: 'linear', repeat: Infinity }}>{[0, 1].map(copy => <div className="home-ticker-set" key={copy} aria-hidden={copy === 1}>{labels.map((label, i) => <span key={label}><b aria-hidden="true">{['◈', '⌘', '↗', '✳', '◇', '◉'][i]}</b>{label}</span>)}</div>)}</motion.div></div>;
+  const labels = ['SaaS products', 'Software engineering', 'Automation', 'System integration', 'Product design', 'Ongoing support'];
+  return <div className="home-ticker" aria-label="Our capabilities"><motion.div className="home-ticker-track" animate={reduced ? { x: 0 } : { x: ['0%', '-50%'] }} transition={{ duration: 32, ease: 'linear', repeat: Infinity }}>{[0, 1].map(copy => <div className="home-ticker-set" key={copy} aria-hidden={copy === 1}>{labels.map((label, i) => <span key={label}><b aria-hidden="true">{['◈', '⌘', '↗', '✳', '◇', '◉'][i]}</b>{label}</span>)}</div>)}</motion.div></div>;
 }
