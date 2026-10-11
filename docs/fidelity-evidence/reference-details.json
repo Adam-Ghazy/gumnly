@@ -1,0 +1,1815 @@
+{
+  "surfaces": [
+    {
+      "name": "BODY",
+      "text": "Gumnly\nHome\nAbout\nProjects\nArticles\nContact\nLet's talk\nGumnl",
+      "background": "rgb(237, 232, 223) none repeat scroll 0% 0% / auto padding-box border-box",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "afterBorder": "0px none rgb(0, 0, 0)",
+      "shadow": "none",
+      "font": "12px sans-serif"
+    },
+    {
+      "name": "SCRIPT",
+      "text": "",
+      "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "afterBorder": "0px none rgb(0, 0, 0)",
+      "shadow": "none",
+      "font": "12px sans-serif"
+    },
+    {
+      "name": "DIV",
+      "text": "Gumnly\nHome\nAbout\nProjects\nArticles\nContact\nLet's talk\nGumnl",
+      "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "afterBorder": "0px none rgb(0, 0, 0)",
+      "shadow": "none",
+      "font": "12px sans-serif"
+    },
+    {
+      "name": "H1",
+      "text": "SaaS products. Services that deliver.",
+      "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+      "color": "rgb(11, 47, 43)",
+      "border": "0px none rgb(11, 47, 43)",
+      "afterBorder": "0px none rgb(11, 47, 43)",
+      "shadow": "none",
+      "font": ""
+    },
+    {
+      "name": "P",
+      "text": "Gumnly is a technology startup building SaaS products and de",
+      "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+      "color": "rgb(68, 69, 76)",
+      "border": "0px none rgb(68, 69, 76)",
+      "afterBorder": "0px none rgb(68, 69, 76)",
+      "shadow": "none",
+      "font": ""
+    },
+    {
+      "name": "P",
+      "text": "Projects completed",
+      "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+      "color": "rgb(68, 69, 76)",
+      "border": "0px none rgb(68, 69, 76)",
+      "afterBorder": "0px none rgb(68, 69, 76)",
+      "shadow": "none",
+      "font": ""
+    },
+    {
+      "name": "P",
+      "text": "Experience",
+      "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+      "color": "rgb(68, 69, 76)",
+      "border": "0px none rgb(68, 69, 76)",
+      "afterBorder": "0px none rgb(68, 69, 76)",
+      "shadow": "none",
+      "font": ""
+    },
+    {
+      "name": "P",
+      "text": "Happy clients",
+      "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+      "color": "rgb(68, 69, 76)",
+      "border": "0px none rgb(68, 69, 76)",
+      "afterBorder": "0px none rgb(68, 69, 76)",
+      "shadow": "none",
+      "font": ""
+    },
+    {
+      "name": "Trailing card",
+      "text": "Select project\n\nAvailable for projects\n\nTell us about your b",
+      "background": "rgb(11, 47, 43) none repeat scroll 0% 0% / auto padding-box border-box",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "afterBorder": "1px solid rgba(255, 255, 255, 0.3)",
+      "shadow": "none",
+      "font": "12px sans-serif"
+    },
+    {
+      "name": "P",
+      "text": "Select project",
+      "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+      "color": "rgba(255, 255, 255, 0.6)",
+      "border": "0px none rgba(255, 255, 255, 0.6)",
+      "afterBorder": "0px none rgba(255, 255, 255, 0.6)",
+      "shadow": "none",
+      "font": ""
+    },
+    {
+      "name": "P",
+      "text": "Tell us about your business and the challenges you want to s",
+      "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+      "color": "rgb(237, 232, 223)",
+      "border": "0px none rgb(237, 232, 223)",
+      "afterBorder": "0px none rgb(237, 232, 223)",
+      "shadow": "none",
+      "font": ""
+    },
+    {
+      "name": "P",
+      "text": "Gumnly combines clear thinking, thoughtful design, and techn",
+      "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+      "color": "rgb(68, 69, 76)",
+      "border": "0px none rgb(68, 69, 76)",
+      "afterBorder": "0px none rgb(68, 69, 76)",
+      "shadow": "none",
+      "font": ""
+    },
+    {
+      "name": "Card 1",
+      "text": "Primary\n\nPrimary\n\nGray\n\nSecondary\n\nSecondary\n\nOutline\n\nOutli",
+      "background": "rgb(237, 232, 223) none repeat scroll 0% 0% / auto padding-box border-box",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "afterBorder": "1px solid rgb(224, 226, 230)",
+      "shadow": "none",
+      "font": "12px sans-serif"
+    },
+    {
+      "name": "Image (Replace here)",
+      "text": "Primary\n\nPrimary\n\nGray\n\nSecondary\n\nSecondary\n\nOutline\n\nOutli",
+      "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "afterBorder": "0px none rgb(0, 0, 0)",
+      "shadow": "none",
+      "font": "12px sans-serif"
+    },
+    {
+      "name": "Toolbar",
+      "text": "",
+      "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "afterBorder": "0px none rgb(0, 0, 0)",
+      "shadow": "none",
+      "font": "12px sans-serif"
+    },
+    {
+      "name": "Toolbar",
+      "text": "",
+      "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "afterBorder": "0px none rgb(0, 0, 0)",
+      "shadow": "none",
+      "font": "12px sans-serif"
+    },
+    {
+      "name": "DIV",
+      "text": "",
+      "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "afterBorder": "0px none rgb(0, 0, 0)",
+      "shadow": "none",
+      "font": "12px sans-serif"
+    },
+    {
+      "name": "DIV",
+      "text": "",
+      "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "afterBorder": "0px none rgb(0, 0, 0)",
+      "shadow": "none",
+      "font": "12px sans-serif"
+    },
+    {
+      "name": "svg",
+      "text": null,
+      "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "afterBorder": "0px none rgb(0, 0, 0)",
+      "shadow": "none",
+      "font": "12px sans-serif"
+    },
+    {
+      "name": "use",
+      "text": null,
+      "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "afterBorder": "0px none rgb(0, 0, 0)",
+      "shadow": "none",
+      "font": "12px sans-serif"
+    },
+    {
+      "name": "Cursor",
+      "text": "",
+      "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "afterBorder": "0px none rgb(0, 0, 0)",
+      "shadow": "none",
+      "font": "12px sans-serif"
+    },
+    {
+      "name": "DIV",
+      "text": "",
+      "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "afterBorder": "0px none rgb(0, 0, 0)",
+      "shadow": "none",
+      "font": "12px sans-serif"
+    },
+    {
+      "name": "DIV",
+      "text": "",
+      "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "afterBorder": "0px none rgb(0, 0, 0)",
+      "shadow": "none",
+      "font": "12px sans-serif"
+    },
+    {
+      "name": "svg",
+      "text": null,
+      "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "afterBorder": "0px none rgb(0, 0, 0)",
+      "shadow": "none",
+      "font": "12px sans-serif"
+    },
+    {
+      "name": "use",
+      "text": null,
+      "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "afterBorder": "0px none rgb(0, 0, 0)",
+      "shadow": "none",
+      "font": "12px sans-serif"
+    },
+    {
+      "name": "Panel",
+      "text": "Primary\n\nPrimary\n\nGray\n\nSecondary\n\nSecondary\n\nOutline\n\nOutli",
+      "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "afterBorder": "0px none rgb(0, 0, 0)",
+      "shadow": "none",
+      "font": "12px sans-serif"
+    },
+    {
+      "name": "Panel",
+      "text": "",
+      "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "afterBorder": "0px none rgb(0, 0, 0)",
+      "shadow": "none",
+      "font": "12px sans-serif"
+    },
+    {
+      "name": "DIV",
+      "text": "",
+      "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "afterBorder": "0px none rgb(0, 0, 0)",
+      "shadow": "none",
+      "font": "12px sans-serif"
+    },
+    {
+      "name": "svg",
+      "text": null,
+      "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "afterBorder": "0px none rgb(0, 0, 0)",
+      "shadow": "none",
+      "font": "12px sans-serif"
+    },
+    {
+      "name": "use",
+      "text": null,
+      "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "afterBorder": "0px none rgb(0, 0, 0)",
+      "shadow": "none",
+      "font": "12px sans-serif"
+    },
+    {
+      "name": "Elements/Button 2",
+      "text": "Primary\n\nPrimary",
+      "background": "rgb(224, 226, 230) none repeat scroll 0% 0% / auto padding-box border-box",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "afterBorder": "0px none rgb(0, 0, 0)",
+      "shadow": "none",
+      "font": "12px sans-serif"
+    },
+    {
+      "name": "Label",
+      "text": "Primary\n\nPrimary",
+      "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "afterBorder": "0px none rgb(0, 0, 0)",
+      "shadow": "none",
+      "font": "12px sans-serif"
+    },
+    {
+      "name": "Label",
+      "text": "Primary",
+      "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "afterBorder": "0px none rgb(0, 0, 0)",
+      "shadow": "none",
+      "font": "12px sans-serif"
+    },
+    {
+      "name": "P",
+      "text": "Primary",
+      "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+      "color": "rgb(11, 47, 43)",
+      "border": "0px none rgb(11, 47, 43)",
+      "afterBorder": "0px none rgb(11, 47, 43)",
+      "shadow": "none",
+      "font": "500 14px / 20px Inter, \"Inter Placeholder\", sans-serif"
+    },
+    {
+      "name": "Label",
+      "text": "Primary",
+      "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "afterBorder": "0px none rgb(0, 0, 0)",
+      "shadow": "none",
+      "font": "12px sans-serif"
+    },
+    {
+      "name": "P",
+      "text": "Primary",
+      "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+      "color": "rgb(11, 47, 43)",
+      "border": "0px none rgb(11, 47, 43)",
+      "afterBorder": "0px none rgb(11, 47, 43)",
+      "shadow": "none",
+      "font": "500 14px / 20px Inter, \"Inter Placeholder\", sans-serif"
+    },
+    {
+      "name": "Elements/Badge 2",
+      "text": "Gray",
+      "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "afterBorder": "1px solid rgb(224, 226, 230)",
+      "shadow": "none",
+      "font": "12px sans-serif"
+    },
+    {
+      "name": "DIV",
+      "text": "",
+      "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "afterBorder": "0px none rgb(0, 0, 0)",
+      "shadow": "none",
+      "font": "12px sans-serif"
+    },
+    {
+      "name": "DIV",
+      "text": "",
+      "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "afterBorder": "0px none rgb(0, 0, 0)",
+      "shadow": "none",
+      "font": "12px sans-serif"
+    },
+    {
+      "name": "svg",
+      "text": null,
+      "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+      "color": "rgb(11, 47, 43)",
+      "border": "0px none rgb(11, 47, 43)",
+      "afterBorder": "0px none rgb(11, 47, 43)",
+      "shadow": "none",
+      "font": "12px sans-serif"
+    },
+    {
+      "name": "g",
+      "text": null,
+      "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+      "color": "rgb(11, 47, 43)",
+      "border": "0px none rgb(11, 47, 43)",
+      "afterBorder": "0px none rgb(11, 47, 43)",
+      "shadow": "none",
+      "font": "12px sans-serif"
+    },
+    {
+      "name": "path",
+      "text": null,
+      "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+      "color": "rgb(11, 47, 43)",
+      "border": "0px none rgb(11, 47, 43)",
+      "afterBorder": "0px none rgb(11, 47, 43)",
+      "shadow": "none",
+      "font": "12px sans-serif"
+    },
+    {
+      "name": "path",
+      "text": null,
+      "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+      "color": "rgb(11, 47, 43)",
+      "border": "0px none rgb(11, 47, 43)",
+      "afterBorder": "0px none rgb(11, 47, 43)",
+      "shadow": "none",
+      "font": "12px sans-serif"
+    },
+    {
+      "name": "Badge",
+      "text": "Gray",
+      "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "afterBorder": "0px none rgb(0, 0, 0)",
+      "shadow": "none",
+      "font": "12px sans-serif"
+    },
+    {
+      "name": "P",
+      "text": "Gray",
+      "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+      "color": "rgb(11, 47, 43)",
+      "border": "0px none rgb(11, 47, 43)",
+      "afterBorder": "0px none rgb(11, 47, 43)",
+      "shadow": "none",
+      "font": "500 14px / 20px Inter, \"Inter Placeholder\", sans-serif"
+    },
+    {
+      "name": "Elements/Icon button",
+      "text": "",
+      "background": "rgb(224, 226, 230) none repeat scroll 0% 0% / auto padding-box border-box",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "afterBorder": "0px none rgb(0, 0, 0)",
+      "shadow": "none",
+      "font": "12px sans-serif"
+    },
+    {
+      "name": "Icon",
+      "text": "",
+      "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "afterBorder": "0px none rgb(0, 0, 0)",
+      "shadow": "none",
+      "font": "12px sans-serif"
+    },
+    {
+      "name": "DIV",
+      "text": "",
+      "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "afterBorder": "0px none rgb(0, 0, 0)",
+      "shadow": "none",
+      "font": "12px sans-serif"
+    },
+    {
+      "name": "DIV",
+      "text": "",
+      "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "afterBorder": "0px none rgb(0, 0, 0)",
+      "shadow": "none",
+      "font": "12px sans-serif"
+    },
+    {
+      "name": "svg",
+      "text": null,
+      "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+      "color": "rgb(11, 47, 43)",
+      "border": "0px none rgb(11, 47, 43)",
+      "afterBorder": "0px none rgb(11, 47, 43)",
+      "shadow": "none",
+      "font": "12px sans-serif"
+    },
+    {
+      "name": "g",
+      "text": null,
+      "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+      "color": "rgb(11, 47, 43)",
+      "border": "0px none rgb(11, 47, 43)",
+      "afterBorder": "0px none rgb(11, 47, 43)",
+      "shadow": "none",
+      "font": "12px sans-serif"
+    },
+    {
+      "name": "path",
+      "text": null,
+      "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+      "color": "rgb(11, 47, 43)",
+      "border": "0px none rgb(11, 47, 43)",
+      "afterBorder": "0px none rgb(11, 47, 43)",
+      "shadow": "none",
+      "font": "12px sans-serif"
+    },
+    {
+      "name": "DIV",
+      "text": "",
+      "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "afterBorder": "0px none rgb(0, 0, 0)",
+      "shadow": "none",
+      "font": "12px sans-serif"
+    },
+    {
+      "name": "DIV",
+      "text": "",
+      "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "afterBorder": "0px none rgb(0, 0, 0)",
+      "shadow": "none",
+      "font": "12px sans-serif"
+    },
+    {
+      "name": "svg",
+      "text": null,
+      "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+      "color": "rgb(11, 47, 43)",
+      "border": "0px none rgb(11, 47, 43)",
+      "afterBorder": "0px none rgb(11, 47, 43)",
+      "shadow": "none",
+      "font": "12px sans-serif"
+    },
+    {
+      "name": "g",
+      "text": null,
+      "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+      "color": "rgb(11, 47, 43)",
+      "border": "0px none rgb(11, 47, 43)",
+      "afterBorder": "0px none rgb(11, 47, 43)",
+      "shadow": "none",
+      "font": "12px sans-serif"
+    },
+    {
+      "name": "path",
+      "text": null,
+      "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+      "color": "rgb(11, 47, 43)",
+      "border": "0px none rgb(11, 47, 43)",
+      "afterBorder": "0px none rgb(11, 47, 43)",
+      "shadow": "none",
+      "font": "12px sans-serif"
+    },
+    {
+      "name": "Elements/Button 2",
+      "text": "Secondary\n\nSecondary",
+      "background": "rgb(11, 47, 43) none repeat scroll 0% 0% / auto padding-box border-box",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "afterBorder": "0px none rgb(0, 0, 0)",
+      "shadow": "none",
+      "font": "12px sans-serif"
+    },
+    {
+      "name": "Label",
+      "text": "Secondary\n\nSecondary",
+      "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "afterBorder": "0px none rgb(0, 0, 0)",
+      "shadow": "none",
+      "font": "12px sans-serif"
+    },
+    {
+      "name": "DIV",
+      "text": "Secondary",
+      "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "afterBorder": "0px none rgb(0, 0, 0)",
+      "shadow": "none",
+      "font": "12px sans-serif"
+    },
+    {
+      "name": "Label",
+      "text": "Secondary",
+      "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "afterBorder": "0px none rgb(0, 0, 0)",
+      "shadow": "none",
+      "font": "12px sans-serif"
+    },
+    {
+      "name": "P",
+      "text": "Secondary",
+      "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+      "color": "rgb(237, 232, 223)",
+      "border": "0px none rgb(237, 232, 223)",
+      "afterBorder": "0px none rgb(237, 232, 223)",
+      "shadow": "none",
+      "font": "500 14px / 20px Inter, \"Inter Placeholder\", sans-serif"
+    },
+    {
+      "name": "DIV",
+      "text": "Secondary",
+      "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "afterBorder": "0px none rgb(0, 0, 0)",
+      "shadow": "none",
+      "font": "12px sans-serif"
+    },
+    {
+      "name": "Label",
+      "text": "Secondary",
+      "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "afterBorder": "0px none rgb(0, 0, 0)",
+      "shadow": "none",
+      "font": "12px sans-serif"
+    },
+    {
+      "name": "P",
+      "text": "Secondary",
+      "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+      "color": "rgb(237, 232, 223)",
+      "border": "0px none rgb(237, 232, 223)",
+      "afterBorder": "0px none rgb(237, 232, 223)",
+      "shadow": "none",
+      "font": "500 14px / 20px Inter, \"Inter Placeholder\", sans-serif"
+    },
+    {
+      "name": "Elements/Button 2",
+      "text": "Outline\n\nOutline",
+      "background": "rgba(255, 255, 255, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "afterBorder": "1px solid rgb(11, 47, 43)",
+      "shadow": "none",
+      "font": "12px sans-serif"
+    },
+    {
+      "name": "Label",
+      "text": "Outline\n\nOutline",
+      "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "afterBorder": "0px none rgb(0, 0, 0)",
+      "shadow": "none",
+      "font": "12px sans-serif"
+    },
+    {
+      "name": "Label",
+      "text": "Outline",
+      "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "afterBorder": "0px none rgb(0, 0, 0)",
+      "shadow": "none",
+      "font": "12px sans-serif"
+    },
+    {
+      "name": "P",
+      "text": "Outline",
+      "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+      "color": "rgb(11, 47, 43)",
+      "border": "0px none rgb(11, 47, 43)",
+      "afterBorder": "0px none rgb(11, 47, 43)",
+      "shadow": "none",
+      "font": "500 14px / 20px Inter, \"Inter Placeholder\", sans-serif"
+    },
+    {
+      "name": "Label",
+      "text": "Outline",
+      "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "afterBorder": "0px none rgb(0, 0, 0)",
+      "shadow": "none",
+      "font": "12px sans-serif"
+    },
+    {
+      "name": "P",
+      "text": "Outline",
+      "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+      "color": "rgb(11, 47, 43)",
+      "border": "0px none rgb(11, 47, 43)",
+      "afterBorder": "0px none rgb(11, 47, 43)",
+      "shadow": "none",
+      "font": "500 14px / 20px Inter, \"Inter Placeholder\", sans-serif"
+    },
+    {
+      "name": "Elements/Button 2",
+      "text": "Ghost\n\nGhost",
+      "background": "rgba(255, 255, 255, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "afterBorder": "0px none rgb(0, 0, 0)",
+      "shadow": "none",
+      "font": "12px sans-serif"
+    },
+    {
+      "name": "Label",
+      "text": "Ghost\n\nGhost",
+      "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "afterBorder": "0px none rgb(0, 0, 0)",
+      "shadow": "none",
+      "font": "12px sans-serif"
+    },
+    {
+      "name": "Label",
+      "text": "Ghost",
+      "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "afterBorder": "0px none rgb(0, 0, 0)",
+      "shadow": "none",
+      "font": "12px sans-serif"
+    },
+    {
+      "name": "P",
+      "text": "Ghost",
+      "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+      "color": "rgb(11, 47, 43)",
+      "border": "0px none rgb(11, 47, 43)",
+      "afterBorder": "0px none rgb(11, 47, 43)",
+      "shadow": "none",
+      "font": "500 14px / 20px Inter, \"Inter Placeholder\", sans-serif"
+    },
+    {
+      "name": "Label",
+      "text": "Ghost",
+      "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "afterBorder": "0px none rgb(0, 0, 0)",
+      "shadow": "none",
+      "font": "12px sans-serif"
+    },
+    {
+      "name": "P",
+      "text": "Ghost",
+      "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+      "color": "rgb(11, 47, 43)",
+      "border": "0px none rgb(11, 47, 43)",
+      "afterBorder": "0px none rgb(11, 47, 43)",
+      "shadow": "none",
+      "font": "500 14px / 20px Inter, \"Inter Placeholder\", sans-serif"
+    },
+    {
+      "name": "Elements/Icon button",
+      "text": "",
+      "background": "rgb(11, 47, 43) none repeat scroll 0% 0% / auto padding-box border-box",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "afterBorder": "0px none rgb(0, 0, 0)",
+      "shadow": "none",
+      "font": "12px sans-serif"
+    },
+    {
+      "name": "Icon",
+      "text": "",
+      "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "afterBorder": "0px none rgb(0, 0, 0)",
+      "shadow": "none",
+      "font": "12px sans-serif"
+    },
+    {
+      "name": "DIV",
+      "text": "",
+      "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "afterBorder": "0px none rgb(0, 0, 0)",
+      "shadow": "none",
+      "font": "12px sans-serif"
+    },
+    {
+      "name": "DIV",
+      "text": "",
+      "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "afterBorder": "0px none rgb(0, 0, 0)",
+      "shadow": "none",
+      "font": "12px sans-serif"
+    },
+    {
+      "name": "svg",
+      "text": null,
+      "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+      "color": "rgb(237, 232, 223)",
+      "border": "0px none rgb(237, 232, 223)",
+      "afterBorder": "0px none rgb(237, 232, 223)",
+      "shadow": "none",
+      "font": "12px sans-serif"
+    },
+    {
+      "name": "g",
+      "text": null,
+      "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+      "color": "rgb(237, 232, 223)",
+      "border": "0px none rgb(237, 232, 223)",
+      "afterBorder": "0px none rgb(237, 232, 223)",
+      "shadow": "none",
+      "font": "12px sans-serif"
+    },
+    {
+      "name": "path",
+      "text": null,
+      "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+      "color": "rgb(237, 232, 223)",
+      "border": "0px none rgb(237, 232, 223)",
+      "afterBorder": "0px none rgb(237, 232, 223)",
+      "shadow": "none",
+      "font": "12px sans-serif"
+    },
+    {
+      "name": "DIV",
+      "text": "",
+      "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "afterBorder": "0px none rgb(0, 0, 0)",
+      "shadow": "none",
+      "font": "12px sans-serif"
+    },
+    {
+      "name": "DIV",
+      "text": "",
+      "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "afterBorder": "0px none rgb(0, 0, 0)",
+      "shadow": "none",
+      "font": "12px sans-serif"
+    },
+    {
+      "name": "svg",
+      "text": null,
+      "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+      "color": "rgb(237, 232, 223)",
+      "border": "0px none rgb(237, 232, 223)",
+      "afterBorder": "0px none rgb(237, 232, 223)",
+      "shadow": "none",
+      "font": "12px sans-serif"
+    },
+    {
+      "name": "g",
+      "text": null,
+      "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+      "color": "rgb(237, 232, 223)",
+      "border": "0px none rgb(237, 232, 223)",
+      "afterBorder": "0px none rgb(237, 232, 223)",
+      "shadow": "none",
+      "font": "12px sans-serif"
+    },
+    {
+      "name": "path",
+      "text": null,
+      "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+      "color": "rgb(237, 232, 223)",
+      "border": "0px none rgb(237, 232, 223)",
+      "afterBorder": "0px none rgb(237, 232, 223)",
+      "shadow": "none",
+      "font": "12px sans-serif"
+    },
+    {
+      "name": "Elements/Icon button",
+      "text": "",
+      "background": "rgba(255, 255, 255, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "afterBorder": "1px solid rgb(11, 47, 43)",
+      "shadow": "none",
+      "font": "12px sans-serif"
+    },
+    {
+      "name": "Icon",
+      "text": "",
+      "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "afterBorder": "0px none rgb(0, 0, 0)",
+      "shadow": "none",
+      "font": "12px sans-serif"
+    },
+    {
+      "name": "DIV",
+      "text": "",
+      "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "afterBorder": "0px none rgb(0, 0, 0)",
+      "shadow": "none",
+      "font": "12px sans-serif"
+    },
+    {
+      "name": "DIV",
+      "text": "",
+      "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "afterBorder": "0px none rgb(0, 0, 0)",
+      "shadow": "none",
+      "font": "12px sans-serif"
+    },
+    {
+      "name": "DIV",
+      "text": "",
+      "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "afterBorder": "0px none rgb(0, 0, 0)",
+      "shadow": "none",
+      "font": "12px sans-serif"
+    },
+    {
+      "name": "svg",
+      "text": null,
+      "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+      "color": "rgb(11, 47, 43)",
+      "border": "0px none rgb(11, 47, 43)",
+      "afterBorder": "0px none rgb(11, 47, 43)",
+      "shadow": "none",
+      "font": "12px sans-serif"
+    },
+    {
+      "name": "g",
+      "text": null,
+      "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+      "color": "rgb(11, 47, 43)",
+      "border": "0px none rgb(11, 47, 43)",
+      "afterBorder": "0px none rgb(11, 47, 43)",
+      "shadow": "none",
+      "font": "12px sans-serif"
+    },
+    {
+      "name": "path",
+      "text": null,
+      "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+      "color": "rgb(11, 47, 43)",
+      "border": "0px none rgb(11, 47, 43)",
+      "afterBorder": "0px none rgb(11, 47, 43)",
+      "shadow": "none",
+      "font": "12px sans-serif"
+    },
+    {
+      "name": "DIV",
+      "text": "",
+      "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "afterBorder": "0px none rgb(0, 0, 0)",
+      "shadow": "none",
+      "font": "12px sans-serif"
+    },
+    {
+      "name": "DIV",
+      "text": "",
+      "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "afterBorder": "0px none rgb(0, 0, 0)",
+      "shadow": "none",
+      "font": "12px sans-serif"
+    },
+    {
+      "name": "svg",
+      "text": null,
+      "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+      "color": "rgb(11, 47, 43)",
+      "border": "0px none rgb(11, 47, 43)",
+      "afterBorder": "0px none rgb(11, 47, 43)",
+      "shadow": "none",
+      "font": "12px sans-serif"
+    },
+    {
+      "name": "g",
+      "text": null,
+      "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+      "color": "rgb(11, 47, 43)",
+      "border": "0px none rgb(11, 47, 43)",
+      "afterBorder": "0px none rgb(11, 47, 43)",
+      "shadow": "none",
+      "font": "12px sans-serif"
+    },
+    {
+      "name": "path",
+      "text": null,
+      "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+      "color": "rgb(11, 47, 43)",
+      "border": "0px none rgb(11, 47, 43)",
+      "afterBorder": "0px none rgb(11, 47, 43)",
+      "shadow": "none",
+      "font": "12px sans-serif"
+    },
+    {
+      "name": "Elements/Icon button",
+      "text": "",
+      "background": "rgba(255, 255, 255, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "afterBorder": "0px none rgb(0, 0, 0)",
+      "shadow": "none",
+      "font": "12px sans-serif"
+    },
+    {
+      "name": "Icon",
+      "text": "",
+      "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "afterBorder": "0px none rgb(0, 0, 0)",
+      "shadow": "none",
+      "font": "12px sans-serif"
+    },
+    {
+      "name": "DIV",
+      "text": "",
+      "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "afterBorder": "0px none rgb(0, 0, 0)",
+      "shadow": "none",
+      "font": "12px sans-serif"
+    },
+    {
+      "name": "DIV",
+      "text": "",
+      "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "afterBorder": "0px none rgb(0, 0, 0)",
+      "shadow": "none",
+      "font": "12px sans-serif"
+    },
+    {
+      "name": "svg",
+      "text": null,
+      "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+      "color": "rgb(11, 47, 43)",
+      "border": "0px none rgb(11, 47, 43)",
+      "afterBorder": "0px none rgb(11, 47, 43)",
+      "shadow": "none",
+      "font": "12px sans-serif"
+    },
+    {
+      "name": "g",
+      "text": null,
+      "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+      "color": "rgb(11, 47, 43)",
+      "border": "0px none rgb(11, 47, 43)",
+      "afterBorder": "0px none rgb(11, 47, 43)",
+      "shadow": "none",
+      "font": "12px sans-serif"
+    },
+    {
+      "name": "path",
+      "text": null,
+      "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+      "color": "rgb(11, 47, 43)",
+      "border": "0px none rgb(11, 47, 43)",
+      "afterBorder": "0px none rgb(11, 47, 43)",
+      "shadow": "none",
+      "font": "12px sans-serif"
+    },
+    {
+      "name": "DIV",
+      "text": "",
+      "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "afterBorder": "0px none rgb(0, 0, 0)",
+      "shadow": "none",
+      "font": "12px sans-serif"
+    },
+    {
+      "name": "DIV",
+      "text": "",
+      "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "afterBorder": "0px none rgb(0, 0, 0)",
+      "shadow": "none",
+      "font": "12px sans-serif"
+    },
+    {
+      "name": "svg",
+      "text": null,
+      "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+      "color": "rgb(11, 47, 43)",
+      "border": "0px none rgb(11, 47, 43)",
+      "afterBorder": "0px none rgb(11, 47, 43)",
+      "shadow": "none",
+      "font": "12px sans-serif"
+    },
+    {
+      "name": "g",
+      "text": null,
+      "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+      "color": "rgb(11, 47, 43)",
+      "border": "0px none rgb(11, 47, 43)",
+      "afterBorder": "0px none rgb(11, 47, 43)",
+      "shadow": "none",
+      "font": "12px sans-serif"
+    },
+    {
+      "name": "path",
+      "text": null,
+      "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+      "color": "rgb(11, 47, 43)",
+      "border": "0px none rgb(11, 47, 43)",
+      "afterBorder": "0px none rgb(11, 47, 43)",
+      "shadow": "none",
+      "font": "12px sans-serif"
+    },
+    {
+      "name": "Elements/Badge 2",
+      "text": "Yellow",
+      "background": "rgb(237, 238, 241) none repeat scroll 0% 0% / auto padding-box border-box",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "afterBorder": "0px none rgb(0, 0, 0)",
+      "shadow": "none",
+      "font": "12px sans-serif"
+    },
+    {
+      "name": "DIV",
+      "text": "",
+      "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "afterBorder": "0px none rgb(0, 0, 0)",
+      "shadow": "none",
+      "font": "12px sans-serif"
+    },
+    {
+      "name": "DIV",
+      "text": "",
+      "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "afterBorder": "0px none rgb(0, 0, 0)",
+      "shadow": "none",
+      "font": "12px sans-serif"
+    },
+    {
+      "name": "svg",
+      "text": null,
+      "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+      "color": "rgb(11, 47, 43)",
+      "border": "0px none rgb(11, 47, 43)",
+      "afterBorder": "0px none rgb(11, 47, 43)",
+      "shadow": "none",
+      "font": "12px sans-serif"
+    },
+    {
+      "name": "g",
+      "text": null,
+      "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+      "color": "rgb(11, 47, 43)",
+      "border": "0px none rgb(11, 47, 43)",
+      "afterBorder": "0px none rgb(11, 47, 43)",
+      "shadow": "none",
+      "font": "12px sans-serif"
+    },
+    {
+      "name": "path",
+      "text": null,
+      "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+      "color": "rgb(11, 47, 43)",
+      "border": "0px none rgb(11, 47, 43)",
+      "afterBorder": "0px none rgb(11, 47, 43)",
+      "shadow": "none",
+      "font": "12px sans-serif"
+    },
+    {
+      "name": "path",
+      "text": null,
+      "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+      "color": "rgb(11, 47, 43)",
+      "border": "0px none rgb(11, 47, 43)",
+      "afterBorder": "0px none rgb(11, 47, 43)",
+      "shadow": "none",
+      "font": "12px sans-serif"
+    },
+    {
+      "name": "Badge",
+      "text": "Yellow",
+      "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "afterBorder": "0px none rgb(0, 0, 0)",
+      "shadow": "none",
+      "font": "12px sans-serif"
+    },
+    {
+      "name": "P",
+      "text": "Yellow",
+      "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+      "color": "rgb(11, 47, 43)",
+      "border": "0px none rgb(11, 47, 43)",
+      "afterBorder": "0px none rgb(11, 47, 43)",
+      "shadow": "none",
+      "font": "500 14px / 20px Inter, \"Inter Placeholder\", sans-serif"
+    },
+    {
+      "name": "Elements/Badge 2",
+      "text": "Dawn pink",
+      "background": "rgb(224, 226, 230) none repeat scroll 0% 0% / auto padding-box border-box",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "afterBorder": "0px none rgb(0, 0, 0)",
+      "shadow": "none",
+      "font": "12px sans-serif"
+    },
+    {
+      "name": "DIV",
+      "text": "",
+      "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "afterBorder": "0px none rgb(0, 0, 0)",
+      "shadow": "none",
+      "font": "12px sans-serif"
+    },
+    {
+      "name": "DIV",
+      "text": "",
+      "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "afterBorder": "0px none rgb(0, 0, 0)",
+      "shadow": "none",
+      "font": "12px sans-serif"
+    },
+    {
+      "name": "svg",
+      "text": null,
+      "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+      "color": "rgb(11, 47, 43)",
+      "border": "0px none rgb(11, 47, 43)",
+      "afterBorder": "0px none rgb(11, 47, 43)",
+      "shadow": "none",
+      "font": "12px sans-serif"
+    },
+    {
+      "name": "g",
+      "text": null,
+      "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+      "color": "rgb(11, 47, 43)",
+      "border": "0px none rgb(11, 47, 43)",
+      "afterBorder": "0px none rgb(11, 47, 43)",
+      "shadow": "none",
+      "font": "12px sans-serif"
+    },
+    {
+      "name": "path",
+      "text": null,
+      "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+      "color": "rgb(11, 47, 43)",
+      "border": "0px none rgb(11, 47, 43)",
+      "afterBorder": "0px none rgb(11, 47, 43)",
+      "shadow": "none",
+      "font": "12px sans-serif"
+    },
+    {
+      "name": "path",
+      "text": null,
+      "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+      "color": "rgb(11, 47, 43)",
+      "border": "0px none rgb(11, 47, 43)",
+      "afterBorder": "0px none rgb(11, 47, 43)",
+      "shadow": "none",
+      "font": "12px sans-serif"
+    },
+    {
+      "name": "Badge",
+      "text": "Dawn pink",
+      "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "afterBorder": "0px none rgb(0, 0, 0)",
+      "shadow": "none",
+      "font": "12px sans-serif"
+    },
+    {
+      "name": "P",
+      "text": "Dawn pink",
+      "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+      "color": "rgb(11, 47, 43)",
+      "border": "0px none rgb(11, 47, 43)",
+      "afterBorder": "0px none rgb(11, 47, 43)",
+      "shadow": "none",
+      "font": "500 14px / 20px Inter, \"Inter Placeholder\", sans-serif"
+    },
+    {
+      "name": "Elements/Badge 2",
+      "text": "Pink",
+      "background": "rgb(11, 47, 43) none repeat scroll 0% 0% / auto padding-box border-box",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "afterBorder": "0px none rgb(0, 0, 0)",
+      "shadow": "none",
+      "font": "12px sans-serif"
+    },
+    {
+      "name": "DIV",
+      "text": "",
+      "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "afterBorder": "0px none rgb(0, 0, 0)",
+      "shadow": "none",
+      "font": "12px sans-serif"
+    },
+    {
+      "name": "DIV",
+      "text": "",
+      "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "afterBorder": "0px none rgb(0, 0, 0)",
+      "shadow": "none",
+      "font": "12px sans-serif"
+    },
+    {
+      "name": "svg",
+      "text": null,
+      "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+      "color": "rgb(237, 232, 223)",
+      "border": "0px none rgb(237, 232, 223)",
+      "afterBorder": "0px none rgb(237, 232, 223)",
+      "shadow": "none",
+      "font": "12px sans-serif"
+    },
+    {
+      "name": "g",
+      "text": null,
+      "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+      "color": "rgb(237, 232, 223)",
+      "border": "0px none rgb(237, 232, 223)",
+      "afterBorder": "0px none rgb(237, 232, 223)",
+      "shadow": "none",
+      "font": "12px sans-serif"
+    },
+    {
+      "name": "path",
+      "text": null,
+      "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+      "color": "rgb(237, 232, 223)",
+      "border": "0px none rgb(237, 232, 223)",
+      "afterBorder": "0px none rgb(237, 232, 223)",
+      "shadow": "none",
+      "font": "12px sans-serif"
+    },
+    {
+      "name": "path",
+      "text": null,
+      "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+      "color": "rgb(237, 232, 223)",
+      "border": "0px none rgb(237, 232, 223)",
+      "afterBorder": "0px none rgb(237, 232, 223)",
+      "shadow": "none",
+      "font": "12px sans-serif"
+    },
+    {
+      "name": "Badge",
+      "text": "Pink",
+      "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "afterBorder": "0px none rgb(0, 0, 0)",
+      "shadow": "none",
+      "font": "12px sans-serif"
+    },
+    {
+      "name": "P",
+      "text": "Pink",
+      "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+      "color": "rgb(237, 232, 223)",
+      "border": "0px none rgb(237, 232, 223)",
+      "afterBorder": "0px none rgb(237, 232, 223)",
+      "shadow": "none",
+      "font": "500 14px / 20px Inter, \"Inter Placeholder\", sans-serif"
+    },
+    {
+      "name": "Content",
+      "text": "SaaS product development\n\nBring your product idea to life wi",
+      "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "afterBorder": "0px none rgb(0, 0, 0)",
+      "shadow": "none",
+      "font": "12px sans-serif"
+    },
+    {
+      "name": "DIV",
+      "text": "SaaS product development",
+      "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "afterBorder": "0px none rgb(0, 0, 0)",
+      "shadow": "none",
+      "font": "12px sans-serif"
+    },
+    {
+      "name": "Heading",
+      "text": "SaaS product development",
+      "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "afterBorder": "0px none rgb(0, 0, 0)",
+      "shadow": "none",
+      "font": "12px sans-serif"
+    },
+    {
+      "name": "H3",
+      "text": "SaaS product development",
+      "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+      "color": "rgb(11, 47, 43)",
+      "border": "0px none rgb(11, 47, 43)",
+      "afterBorder": "0px none rgb(11, 47, 43)",
+      "shadow": "none",
+      "font": ""
+    },
+    {
+      "name": "DIV",
+      "text": "Bring your product idea to life with focused planning, intui",
+      "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "afterBorder": "0px none rgb(0, 0, 0)",
+      "shadow": "none",
+      "font": "12px sans-serif"
+    },
+    {
+      "name": "Description",
+      "text": "Bring your product idea to life with focused planning, intui",
+      "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "afterBorder": "0px none rgb(0, 0, 0)",
+      "shadow": "none",
+      "font": "12px sans-serif"
+    },
+    {
+      "name": "P",
+      "text": "Bring your product idea to life with focused planning, intui",
+      "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+      "color": "rgb(68, 69, 76)",
+      "border": "0px none rgb(68, 69, 76)",
+      "afterBorder": "0px none rgb(68, 69, 76)",
+      "shadow": "none",
+      "font": ""
+    },
+    {
+      "name": "P",
+      "text": "Aug 3, 2026",
+      "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+      "color": "rgb(11, 47, 43)",
+      "border": "0px none rgb(11, 47, 43)",
+      "afterBorder": "0px none rgb(11, 47, 43)",
+      "shadow": "none",
+      "font": "500 13px / 15.6px Inter, \"Inter Placeholder\", sans-serif"
+    },
+    {
+      "name": "P",
+      "text": "Unique Visitors",
+      "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+      "color": "rgb(11, 47, 43)",
+      "border": "0px none rgb(11, 47, 43)",
+      "afterBorder": "0px none rgb(11, 47, 43)",
+      "shadow": "none",
+      "font": "13px / 15.6px Inter, \"Inter Placeholder\", sans-serif"
+    },
+    {
+      "name": "P",
+      "text": "Total Pageviews",
+      "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+      "color": "rgb(11, 47, 43)",
+      "border": "0px none rgb(11, 47, 43)",
+      "afterBorder": "0px none rgb(11, 47, 43)",
+      "shadow": "none",
+      "font": "13px / 15.6px Inter, \"Inter Placeholder\", sans-serif"
+    },
+    {
+      "name": "P",
+      "text": "9,706",
+      "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+      "color": "rgb(11, 47, 43)",
+      "border": "0px none rgb(11, 47, 43)",
+      "afterBorder": "0px none rgb(11, 47, 43)",
+      "shadow": "none",
+      "font": "500 13px / 15.6px Inter, \"Inter Placeholder\", sans-serif"
+    },
+    {
+      "name": "P",
+      "text": "6,816",
+      "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+      "color": "rgb(11, 47, 43)",
+      "border": "0px none rgb(11, 47, 43)",
+      "afterBorder": "0px none rgb(11, 47, 43)",
+      "shadow": "none",
+      "font": "500 13px / 15.6px Inter, \"Inter Placeholder\", sans-serif"
+    },
+    {
+      "name": "P",
+      "text": "Get digital design and development services tailored to the ",
+      "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+      "color": "rgb(68, 69, 76)",
+      "border": "0px none rgb(68, 69, 76)",
+      "afterBorder": "0px none rgb(68, 69, 76)",
+      "shadow": "none",
+      "font": ""
+    },
+    {
+      "name": "P",
+      "text": "Move from concept to launch, then keep improving your produc",
+      "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+      "color": "rgb(68, 69, 76)",
+      "border": "0px none rgb(68, 69, 76)",
+      "afterBorder": "0px none rgb(68, 69, 76)",
+      "shadow": "none",
+      "font": ""
+    },
+    {
+      "name": "P",
+      "text": "Our focus is SaaS products and digital services that create ",
+      "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+      "color": "rgb(68, 69, 76)",
+      "border": "0px none rgb(68, 69, 76)",
+      "afterBorder": "0px none rgb(68, 69, 76)",
+      "shadow": "none",
+      "font": ""
+    },
+    {
+      "name": "P",
+      "text": "We combine product thinking, software development, and custo",
+      "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+      "color": "rgb(68, 69, 76)",
+      "border": "0px none rgb(68, 69, 76)",
+      "afterBorder": "0px none rgb(68, 69, 76)",
+      "shadow": "none",
+      "font": ""
+    },
+    {
+      "name": "P",
+      "text": "Clear design direction shaped around every project goal.",
+      "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+      "color": "rgb(11, 47, 43)",
+      "border": "0px none rgb(11, 47, 43)",
+      "afterBorder": "0px none rgb(11, 47, 43)",
+      "shadow": "none",
+      "font": ""
+    },
+    {
+      "name": "H1",
+      "text": "%",
+      "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+      "color": "rgb(11, 47, 43)",
+      "border": "0px none rgb(11, 47, 43)",
+      "afterBorder": "0px none rgb(11, 47, 43)",
+      "shadow": "none",
+      "font": ""
+    },
+    {
+      "name": "P",
+      "text": "Client satisfaction",
+      "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+      "color": "rgb(97, 100, 107)",
+      "border": "0px none rgb(97, 100, 107)",
+      "afterBorder": "0px none rgb(97, 100, 107)",
+      "shadow": "none",
+      "font": ""
+    },
+    {
+      "name": "P",
+      "text": "Brand identities, websites, and digital systems delivered wi",
+      "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+      "color": "rgb(11, 47, 43)",
+      "border": "0px none rgb(11, 47, 43)",
+      "afterBorder": "0px none rgb(11, 47, 43)",
+      "shadow": "none",
+      "font": ""
+    },
+    {
+      "name": "H1",
+      "text": "+",
+      "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+      "color": "rgb(11, 47, 43)",
+      "border": "0px none rgb(11, 47, 43)",
+      "afterBorder": "0px none rgb(11, 47, 43)",
+      "shadow": "none",
+      "font": ""
+    },
+    {
+      "name": "P",
+      "text": "Projects completed",
+      "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+      "color": "rgb(97, 100, 107)",
+      "border": "0px none rgb(97, 100, 107)",
+      "afterBorder": "0px none rgb(97, 100, 107)",
+      "shadow": "none",
+      "font": ""
+    },
+    {
+      "name": "P",
+      "text": "From a new SaaS product to a tailored customer service, we f",
+      "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+      "color": "rgb(201, 205, 210)",
+      "border": "0px none rgb(201, 205, 210)",
+      "afterBorder": "0px none rgb(201, 205, 210)",
+      "shadow": "none",
+      "font": ""
+    },
+    {
+      "name": "H1",
+      "text": "4.9",
+      "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+      "color": "rgb(237, 232, 223)",
+      "border": "0px none rgb(237, 232, 223)",
+      "afterBorder": "0px none rgb(237, 232, 223)",
+      "shadow": "none",
+      "font": ""
+    },
+    {
+      "name": "P",
+      "text": "Trusted by clients worldwide",
+      "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+      "color": "rgb(148, 151, 158)",
+      "border": "0px none rgb(148, 151, 158)",
+      "afterBorder": "0px none rgb(148, 151, 158)",
+      "shadow": "none",
+      "font": ""
+    },
+    {
+      "name": "P",
+      "text": "Partner with Gumnly for SaaS development, digital platforms,",
+      "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+      "color": "rgb(68, 69, 76)",
+      "border": "0px none rgb(68, 69, 76)",
+      "afterBorder": "0px none rgb(68, 69, 76)",
+      "shadow": "none",
+      "font": ""
+    },
+    {
+      "name": "P",
+      "text": "Building responsive, polished websites with clean structure,",
+      "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+      "color": "rgb(68, 69, 76)",
+      "border": "0px none rgb(68, 69, 76)",
+      "afterBorder": "0px none rgb(68, 69, 76)",
+      "shadow": "none",
+      "font": ""
+    },
+    {
+      "name": "P",
+      "text": "Creating clear visual systems that keep your brand consisten",
+      "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+      "color": "rgb(68, 69, 76)",
+      "border": "0px none rgb(68, 69, 76)",
+      "afterBorder": "0px none rgb(68, 69, 76)",
+      "shadow": "none",
+      "font": ""
+    },
+    {
+      "name": "P",
+      "text": "Designing intuitive interfaces and user flows that make digi",
+      "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+      "color": "rgb(68, 69, 76)",
+      "border": "0px none rgb(68, 69, 76)",
+      "afterBorder": "0px none rgb(68, 69, 76)",
+      "shadow": "none",
+      "font": ""
+    }
+  ],
+  "images": [
+    {
+      "src": "https://framerusercontent.com/images/urHsc2gl0mz8FFsPFV1HMTq2DnE.svg?width=26&height=26",
+      "alt": "",
+      "w": 24,
+      "h": 24
+    },
+    {
+      "src": "https://framerusercontent.com/images/urHsc2gl0mz8FFsPFV1HMTq2DnE.svg?width=26&height=26",
+      "alt": "",
+      "w": 24,
+      "h": 24
+    },
+    {
+      "src": "https://framerusercontent.com/images/BfRu1l2xuEXlymTXuXPJDKJTacE.jpg?width=1100&height=1650",
+      "alt": "Software development workspace with code displayed on a monitor",
+      "w": 530,
+      "h": 712
+    },
+    {
+      "src": "https://framerusercontent.com/images/IHneqoBbdHUCED6FYR137ZUxEqI.gif?width=500&height=500",
+      "alt": "",
+      "w": 142,
+      "h": 48
+    },
+    {
+      "src": "https://framerusercontent.com/images/fNNlYXrAGPgp4qHPRedQjrKpo9c.svg?width=615&height=203",
+      "alt": "",
+      "w": 209,
+      "h": 69
+    },
+    {
+      "src": "https://framerusercontent.com/images/WpPH5o5mJSJkqfaHofbVcED1fiE.png?width=930&height=611",
+      "alt": "",
+      "w": 309,
+      "h": 203
+    },
+    {
+      "src": "https://framerusercontent.com/images/ktcimUvwboXOgQi2AvOrS6Bj760.jpg?width=1600&height=1200",
+      "alt": "",
+      "w": 560,
+      "h": 423
+    },
+    {
+      "src": "https://framerusercontent.com/images/vYf7Bp88A2oX0r0rBYroXDxsSI.jpg?width=1600&height=1200",
+      "alt": "",
+      "w": 560,
+      "h": 423
+    },
+    {
+      "src": "https://framerusercontent.com/images/nLiypGqmKBGtEZ2OY7irFQiP5U.png?width=2400&height=1800",
+      "alt": "",
+      "w": 560,
+      "h": 423
+    },
+    {
+      "src": "https://framerusercontent.com/images/HyuPygjhzSYcqtCkgqgwlcI.jpg?width=1600&height=1200",
+      "alt": "",
+      "w": 560,
+      "h": 423
+    },
+    {
+      "src": "https://framerusercontent.com/images/hg1KCy1TvxmM2dGVwS3krViR44.png?width=3200&height=2400",
+      "alt": "",
+      "w": 560,
+      "h": 423
+    },
+    {
+      "src": "https://framerusercontent.com/images/aqshn4kinOsmEgg1K88qujb0A5M.jpg?width=1600&height=1200",
+      "alt": "",
+      "w": 560,
+      "h": 423
+    },
+    {
+      "src": "https://framerusercontent.com/images/7n35wdG8jtT2LMgYCpqeBkSo6s.jpg?width=527&height=527",
+      "alt": "",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "src": "https://framerusercontent.com/images/s45yKcA8Ca8Yoakc4y2MawGRx0.jpg?width=509&height=509",
+      "alt": "",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "src": "https://framerusercontent.com/images/S9PyleA1z5ugBA2Z87N0r7h5VA.jpg?width=504&height=504",
+      "alt": "",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "src": "https://framerusercontent.com/images/nFTyhTg9mtSiD0Oh51DGHixETM.jpg?width=583&height=583",
+      "alt": "",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "src": "https://framerusercontent.com/images/IHneqoBbdHUCED6FYR137ZUxEqI.gif?width=500&height=500",
+      "alt": "",
+      "w": 437,
+      "h": 272
+    },
+    {
+      "src": "https://framerusercontent.com/images/urHsc2gl0mz8FFsPFV1HMTq2DnE.svg?width=26&height=26",
+      "alt": "",
+      "w": 24,
+      "h": 24
+    }
+  ],
+  "body": "rgb(237, 232, 223) none repeat scroll 0% 0% / auto padding-box border-box"
+}

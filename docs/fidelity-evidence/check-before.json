@@ -1,0 +1,148 @@
+{
+  "results": [
+    {
+      "width": 1440,
+      "headline": "Membangun software yang membuat pekerjaan lebih sederhana.",
+      "cards": [
+        {
+          "w": 373.328125,
+          "h": 460,
+          "x": 144,
+          "border": "1px solid rgb(222, 219, 210)",
+          "color": "rgb(222, 219, 210)",
+          "bg": "rgb(237, 232, 223)"
+        },
+        {
+          "w": 373.328125,
+          "h": 492,
+          "x": 533.328125,
+          "border": "1px solid rgb(222, 219, 210)",
+          "color": "rgb(222, 219, 210)",
+          "bg": "rgb(237, 232, 223)"
+        },
+        {
+          "w": 373.34375,
+          "h": 492,
+          "x": 922.65625,
+          "border": "1px solid rgb(222, 219, 210)",
+          "color": "rgb(222, 219, 210)",
+          "bg": "rgb(237, 232, 223)"
+        }
+      ]
+    },
+    {
+      "width": 834,
+      "headline": "Membangun software yang membuat pekerjaan lebih sederhana.",
+      "cards": [
+        {
+          "w": 786,
+          "h": 412,
+          "x": 24,
+          "border": "1px solid rgb(222, 219, 210)",
+          "color": "rgb(222, 219, 210)",
+          "bg": "rgb(237, 232, 223)"
+        },
+        {
+          "w": 786,
+          "h": 412,
+          "x": 24,
+          "border": "1px solid rgb(222, 219, 210)",
+          "color": "rgb(222, 219, 210)",
+          "bg": "rgb(237, 232, 223)"
+        },
+        {
+          "w": 786,
+          "h": 412,
+          "x": 24,
+          "border": "1px solid rgb(222, 219, 210)",
+          "color": "rgb(222, 219, 210)",
+          "bg": "rgb(237, 232, 223)"
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "headline": "Membangun software yang membuat pekerjaan lebih sederhana.",
+      "cards": [
+        {
+          "w": 358,
+          "h": 444,
+          "x": 16,
+          "border": "1px solid rgb(222, 219, 210)",
+          "color": "rgb(222, 219, 210)",
+          "bg": "rgb(237, 232, 223)"
+        },
+        {
+          "w": 358,
+          "h": 476,
+          "x": 16,
+          "border": "1px solid rgb(222, 219, 210)",
+          "color": "rgb(222, 219, 210)",
+          "bg": "rgb(237, 232, 223)"
+        },
+        {
+          "w": 358,
+          "h": 476.00006103515625,
+          "x": 16,
+          "border": "1px solid rgb(222, 219, 210)",
+          "color": "rgb(222, 219, 210)",
+          "bg": "rgb(237, 232, 223)"
+        }
+      ]
+    },
+    {
+      "width": 320,
+      "headline": "Membangun software yang membuat pekerjaan lebih sederhana.",
+      "cards": [
+        {
+          "w": 312,
+          "h": 500,
+          "x": 16,
+          "border": "1px solid rgb(222, 219, 210)",
+          "color": "rgb(222, 219, 210)",
+          "bg": "rgb(237, 232, 223)"
+        },
+        {
+          "w": 312,
+          "h": 476,
+          "x": 16,
+          "border": "1px solid rgb(222, 219, 210)",
+          "color": "rgb(222, 219, 210)",
+          "bg": "rgb(237, 232, 223)"
+        },
+        {
+          "w": 312,
+          "h": 476,
+          "x": 16,
+          "border": "1px solid rgb(222, 219, 210)",
+          "color": "rgb(222, 219, 210)",
+          "bg": "rgb(237, 232, 223)"
+        }
+      ]
+    }
+  ],
+  "failures": [
+    "1440: English reference headline",
+    "1440: unequal cards",
+    "1440: reference border color",
+    "1440: reference border color",
+    "1440: reference border color",
+    "834: English reference headline",
+    "834: reference border color",
+    "834: reference border color",
+    "834: reference border color",
+    "390: English reference headline",
+    "390: unequal cards",
+    "390: reference border color",
+    "390: reference border color",
+    "390: reference border color",
+    "320: English reference headline",
+    "320: unequal cards",
+    "320: reference border color",
+    "320: clipped card",
+    "320: reference border color",
+    "320: clipped card",
+    "320: reference border color",
+    "320: clipped card"
+  ]
+}

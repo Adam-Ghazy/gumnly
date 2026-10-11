@@ -1,0 +1,125 @@
+{
+  "results": [
+    {
+      "width": 1440,
+      "headline": "SaaS products. Services that deliver.",
+      "cards": [
+        {
+          "w": 373.328125,
+          "h": 468,
+          "x": 144,
+          "border": "1px solid rgb(224, 226, 230)",
+          "color": "rgb(224, 226, 230)",
+          "bg": "rgb(237, 232, 223)"
+        },
+        {
+          "w": 373.328125,
+          "h": 468,
+          "x": 533.328125,
+          "border": "1px solid rgb(224, 226, 230)",
+          "color": "rgb(224, 226, 230)",
+          "bg": "rgb(237, 232, 223)"
+        },
+        {
+          "w": 373.34375,
+          "h": 468,
+          "x": 922.65625,
+          "border": "1px solid rgb(224, 226, 230)",
+          "color": "rgb(224, 226, 230)",
+          "bg": "rgb(237, 232, 223)"
+        }
+      ]
+    },
+    {
+      "width": 834,
+      "headline": "SaaS products. Services that deliver.",
+      "cards": [
+        {
+          "w": 786,
+          "h": 410,
+          "x": 24,
+          "border": "1px solid rgb(224, 226, 230)",
+          "color": "rgb(224, 226, 230)",
+          "bg": "rgb(237, 232, 223)"
+        },
+        {
+          "w": 786,
+          "h": 410,
+          "x": 24,
+          "border": "1px solid rgb(224, 226, 230)",
+          "color": "rgb(224, 226, 230)",
+          "bg": "rgb(237, 232, 223)"
+        },
+        {
+          "w": 786,
+          "h": 410,
+          "x": 24,
+          "border": "1px solid rgb(224, 226, 230)",
+          "color": "rgb(224, 226, 230)",
+          "bg": "rgb(237, 232, 223)"
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "headline": "SaaS products. Services that deliver.",
+      "cards": [
+        {
+          "w": 358,
+          "h": 452,
+          "x": 16,
+          "border": "1px solid rgb(224, 226, 230)",
+          "color": "rgb(224, 226, 230)",
+          "bg": "rgb(237, 232, 223)"
+        },
+        {
+          "w": 358,
+          "h": 452,
+          "x": 16,
+          "border": "1px solid rgb(224, 226, 230)",
+          "color": "rgb(224, 226, 230)",
+          "bg": "rgb(237, 232, 223)"
+        },
+        {
+          "w": 358,
+          "h": 451.99993896484375,
+          "x": 16,
+          "border": "1px solid rgb(224, 226, 230)",
+          "color": "rgb(224, 226, 230)",
+          "bg": "rgb(237, 232, 223)"
+        }
+      ]
+    },
+    {
+      "width": 320,
+      "headline": "SaaS products. Services that deliver.",
+      "cards": [
+        {
+          "w": 288,
+          "h": 476,
+          "x": 16,
+          "border": "1px solid rgb(224, 226, 230)",
+          "color": "rgb(224, 226, 230)",
+          "bg": "rgb(237, 232, 223)"
+        },
+        {
+          "w": 288,
+          "h": 476,
+          "x": 16,
+          "border": "1px solid rgb(224, 226, 230)",
+          "color": "rgb(224, 226, 230)",
+          "bg": "rgb(237, 232, 223)"
+        },
+        {
+          "w": 288,
+          "h": 475.99993896484375,
+          "x": 16,
+          "border": "1px solid rgb(224, 226, 230)",
+          "color": "rgb(224, 226, 230)",
+          "bg": "rgb(237, 232, 223)"
+        }
+      ]
+    }
+  ],
+  "failures": []
+}
